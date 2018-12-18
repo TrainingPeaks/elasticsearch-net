@@ -223,6 +223,10 @@ namespace Nest
 		public TokenFiltersDescriptor Stemmer(string name, Func<StemmerTokenFilterDescriptor, IStemmerTokenFilter> selector) =>
 			Assign(name, selector?.Invoke(new StemmerTokenFilterDescriptor()));
 
+		/// <inheritdoc cref="IPredicateTokenFilter" />
+		public TokenFiltersDescriptor Predicate(string name, Func<PredicateTokenFilterDescriptor, IPredicateTokenFilter> selector) =>
+			Assign(name, selector?.Invoke(new PredicateTokenFilterDescriptor()));
+
 		/// <summary>
 		/// Overrides stemming algorithms, by applying a custom mapping, then protecting these terms from being modified by stemmers. Must be placed
 		/// before any stemming filters.
