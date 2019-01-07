@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Controls how elasticsearch handles dynamic mapping changes when a new document present new fields

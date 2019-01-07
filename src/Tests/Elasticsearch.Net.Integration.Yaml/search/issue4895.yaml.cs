@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Search5
+namespace ES.Net.Integration.Yaml.Search5
 {
 	public partial class Search5YamlTests
 	{	

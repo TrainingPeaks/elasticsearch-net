@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Nest.Domain
+namespace Nest17.Domain
 {
 	public interface IFieldSelection<out T>
 	{

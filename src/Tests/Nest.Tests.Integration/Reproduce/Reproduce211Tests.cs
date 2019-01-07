@@ -5,7 +5,7 @@ using NUnit.Framework;
 using System.Diagnostics;
 using FluentAssertions;
 
-namespace Nest.Tests.Integration.Reproduce
+namespace Nest17.Tests.Integration.Reproduce
 {
 	/// <summary>
 	/// tests to reproduce reported errors

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IGetFieldMappingRequest : IIndicesOptionalTypesOptionalFieldsPath<GetFieldMappingRequestParameters> { }

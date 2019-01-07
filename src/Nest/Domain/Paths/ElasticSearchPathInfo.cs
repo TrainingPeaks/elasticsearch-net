@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	public class ElasticsearchPathInfo<TParameters> : IElasticsearchPathInfo
 		where TParameters : IRequestParameters, new()

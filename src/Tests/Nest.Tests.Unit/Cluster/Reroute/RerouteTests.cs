@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Cluster.Reroute
+namespace Nest17.Tests.Unit.Cluster.Reroute
 {
 	[TestFixture]
 	public class RerouteTests : BaseJsonTests

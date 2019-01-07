@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Map.FieldNamesField
+namespace Nest17.Tests.Unit.Core.Map.FieldNamesField
 {
 	[TestFixture]
 	public class FieldNamesFieldTests : BaseJsonTests

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
+using ES.Net;
+using ES.Net.Connection;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.ObjectInitializer.Source
+namespace Nest17.Tests.Unit.ObjectInitializer.Source
 {
 	[TestFixture]
 	public class SourceRequestTests : BaseJsonTests

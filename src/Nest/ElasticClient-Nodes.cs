@@ -1,4 +1,4 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Nest
+namespace Nest17
 {
 	using NodesHotThreadConverter = Func<IElasticsearchResponse, Stream, NodesHotThreadsResponse>;
 

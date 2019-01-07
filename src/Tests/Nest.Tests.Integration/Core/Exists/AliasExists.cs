@@ -2,7 +2,7 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Exists
+namespace Nest17.Tests.Integration.Core.Exists
 {
 	[TestFixture]
 	public class AliasExistsTest : IntegrationTests

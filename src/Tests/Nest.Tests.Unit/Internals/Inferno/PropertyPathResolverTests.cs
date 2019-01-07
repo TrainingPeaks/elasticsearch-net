@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using FluentAssertions;
-using Nest.Resolvers;
+using Nest17.Resolvers;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Internals.Inferno
+namespace Nest17.Tests.Unit.Internals.Inferno
 {
 	[TestFixture]
 	public class PropertyPathResolverTests

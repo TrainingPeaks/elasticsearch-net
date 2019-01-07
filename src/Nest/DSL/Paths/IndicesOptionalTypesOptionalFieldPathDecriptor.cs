@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Elasticsearch.Net;
-using Nest.Resolvers;
+using ES.Net;
+using Nest17.Resolvers;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IIndicesOptionalTypesOptionalFieldsPath<TParameters> : IRequest<TParameters>
 		where TParameters : IRequestParameters, new()

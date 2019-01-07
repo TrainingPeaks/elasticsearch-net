@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-namespace Nest.Tests.Integration.Aggregations
+namespace Nest17.Tests.Integration.Aggregations
 {
 	[TestFixture]
 	public class MetricAggregationTests : IntegrationTests

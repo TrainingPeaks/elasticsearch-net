@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesPutWarmer1
+namespace ES.Net.Integration.Yaml.IndicesPutWarmer1
 {
 	public partial class IndicesPutWarmer1YamlTests
 	{	

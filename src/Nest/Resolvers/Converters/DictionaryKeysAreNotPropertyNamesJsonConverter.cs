@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Globalization;
-using Nest.Resolvers;
+using Nest17.Resolvers;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// JSON converter for IDictionary that ignores the contract resolver (e.g. CamelCasePropertyNamesContractResolver)

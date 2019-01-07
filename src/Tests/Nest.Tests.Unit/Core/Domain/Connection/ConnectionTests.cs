@@ -1,10 +1,10 @@
-﻿using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
+﻿using ES.Net;
+using ES.Net.Connection;
 using NUnit.Framework;
 using System;
 using System.Collections.Specialized;
 
-namespace Nest.Tests.Unit.Domain.Connection
+namespace Nest17.Tests.Unit.Domain.Connection
 {
 	using System.Net;
 

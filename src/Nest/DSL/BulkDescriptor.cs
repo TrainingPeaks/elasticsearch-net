@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
 
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IBulkRequest : IFixedIndexTypePath<BulkRequestParameters>

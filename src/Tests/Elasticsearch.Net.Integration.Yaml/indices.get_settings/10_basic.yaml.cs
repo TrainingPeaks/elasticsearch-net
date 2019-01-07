@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesGetSettings1
+namespace ES.Net.Integration.Yaml.IndicesGetSettings1
 {
 	public partial class IndicesGetSettings1YamlTests
 	{	

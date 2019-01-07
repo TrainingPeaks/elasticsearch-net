@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest.DSL.Query.Behaviour;
+using Nest17.DSL.Query.Behaviour;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IPrefixQuery : ITermQuery

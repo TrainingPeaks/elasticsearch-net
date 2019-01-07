@@ -1,7 +1,7 @@
-﻿using Nest.Tests.MockData.Domain;
+﻿using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core
+namespace Nest17.Tests.Integration.Core
 {
 	[TestFixture]
 	public class AsyncTests : IntegrationTests

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Query.Singles.Term
+namespace Nest17.Tests.Unit.Search.Query.Singles.Term
 {
 	[TestFixture]
 	public class TermToStringJson : BaseJsonTests

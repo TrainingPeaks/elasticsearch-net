@@ -23,7 +23,7 @@
 
 using System;
 
-namespace Elasticsearch.Net.Connection.Thrift.Protocol
+namespace ES.Net.Connection.Thrift.Protocol
 {
 	internal class TProtocolException : Exception
 	{

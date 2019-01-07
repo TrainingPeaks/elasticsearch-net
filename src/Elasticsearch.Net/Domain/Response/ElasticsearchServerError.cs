@@ -1,6 +1,6 @@
-using Elasticsearch.Net.Exceptions;
+using ES.Net.Exceptions;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public class ElasticsearchServerError
 	{

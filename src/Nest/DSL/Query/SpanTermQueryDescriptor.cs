@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest.DSL.Query.Behaviour;
+using Nest17.DSL.Query.Behaviour;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	[JsonConverter(typeof(SpanTermQueryConverter))]

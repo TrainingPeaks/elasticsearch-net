@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Scripts
+namespace Nest17.Tests.Integration.Core.Scripts
 {
     [TestFixture]
     public class ScriptsTest : IntegrationTests

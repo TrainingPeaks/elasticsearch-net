@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Linq.Expressions;
-using Elasticsearch.Net;
-using Nest.DSL.Descriptors;
+using ES.Net;
+using Nest17.DSL.Descriptors;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IPercolateRequest<TDocument> : IIndexTypePath<PercolateRequestParameters>, IPercolateOperation

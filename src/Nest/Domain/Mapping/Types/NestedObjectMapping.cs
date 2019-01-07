@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	public class NestedObjectMapping : ObjectMapping

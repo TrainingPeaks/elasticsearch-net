@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Reproduce
+namespace Nest17.Tests.Integration.Reproduce
 {
 	/// <summary>
 	/// tests to reproduce reported errors

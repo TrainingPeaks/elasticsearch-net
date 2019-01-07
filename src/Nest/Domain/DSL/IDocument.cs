@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(DocumentConverter))]
 	public interface IDocument

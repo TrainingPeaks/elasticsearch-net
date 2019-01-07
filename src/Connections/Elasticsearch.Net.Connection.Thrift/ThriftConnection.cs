@@ -7,16 +7,16 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection.Configuration;
-using Elasticsearch.Net.Connection.Thrift.Protocol;
-using Elasticsearch.Net.Connection.Thrift.Transport;
+using ES.Net.Connection.Configuration;
+using ES.Net.Connection.Thrift.Protocol;
+using ES.Net.Connection.Thrift.Transport;
 
-namespace Elasticsearch.Net.Connection.Thrift
+namespace ES.Net.Connection.Thrift
 {
 	public class ThriftConnection : IConnection, IDisposable
 	{
 		public TransportAddressScheme? AddressScheme { get 
-		{ return Elasticsearch.Net.Connection.TransportAddressScheme.Thrift; } }
+		{ return ES.Net.Connection.TransportAddressScheme.Thrift; } }
 
 		private readonly ConcurrentDictionary<Uri, ConcurrentQueue<Rest.Client>> _clients =
 			new ConcurrentDictionary<Uri, ConcurrentQueue<Rest.Client>>();

@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
 using System;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Unit.Internals.Inferno
+namespace Nest17.Tests.Unit.Internals.Inferno
 {
 	[TestFixture]
 	public class EscapedFormatTests

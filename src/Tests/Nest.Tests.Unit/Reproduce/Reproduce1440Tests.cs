@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Elasticsearch.Net.Connection;
+using ES.Net.Connection;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Reproduce
+namespace Nest17.Tests.Unit.Reproduce
 {
 	/// <summary>
 	/// tests to reproduce reported errors

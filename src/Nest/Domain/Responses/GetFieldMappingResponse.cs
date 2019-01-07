@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Linq.Expressions;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest
+namespace Nest17
 {
 
 	public class FieldMappingProperties : Dictionary<string, FieldMapping>

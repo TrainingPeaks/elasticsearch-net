@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
 
-namespace Nest.Tests.Unit.Core.AttributeBasedMap
+namespace Nest17.Tests.Unit.Core.AttributeBasedMap
 {
 	[TestFixture]
 	public class DeepObjectMappingTests : BaseAttributeMappingTests

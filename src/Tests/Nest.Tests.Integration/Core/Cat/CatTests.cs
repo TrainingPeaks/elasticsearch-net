@@ -4,13 +4,13 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Runtime.InteropServices.ComTypes;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
-using Nest.Resolvers;
-using Nest.Tests.MockData.Domain;
+using Nest17.Resolvers;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Cat
+namespace Nest17.Tests.Integration.Core.Cat
 {
 	[TestFixture]
 	public class CatTests : IntegrationTests

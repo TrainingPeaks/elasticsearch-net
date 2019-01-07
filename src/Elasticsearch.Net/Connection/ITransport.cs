@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Serialization;
+using ES.Net.Serialization;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	public interface ITransport
 	{

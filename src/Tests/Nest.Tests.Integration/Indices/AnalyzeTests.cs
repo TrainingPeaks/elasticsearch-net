@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Integration.Indices
+namespace Nest17.Tests.Integration.Indices
 {
 	[TestFixture]
 	public class AnalyzeTest : IntegrationTests

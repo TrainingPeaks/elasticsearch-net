@@ -11,7 +11,7 @@ using System.Collections.Concurrent;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 
-namespace Nest.Resolvers
+namespace Nest17.Resolvers
 {
 	//Shout out to http://tomlev2.wordpress.com/2010/10/03/entity-framework-using-include-with-lambda-expressions/
 	//replaces my sloppy 300+ lines (though working!) first attempt, thanks Thomas Levesque.

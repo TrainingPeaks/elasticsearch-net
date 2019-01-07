@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Termvector1
+namespace ES.Net.Integration.Yaml.Termvector1
 {
 	public partial class Termvector1YamlTests
 	{	

@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest
+namespace Nest17
 {
     [JsonObject]
     [JsonConverter(typeof(ShardsSegmentConverter))]

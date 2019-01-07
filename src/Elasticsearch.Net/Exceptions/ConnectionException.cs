@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	public class ConnectionException : System.Exception
 	{

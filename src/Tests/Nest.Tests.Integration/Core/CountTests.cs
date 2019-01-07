@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Integration.Core
+namespace Nest17.Tests.Integration.Core
 {
 	[TestFixture]
 	public class CountTests : IntegrationTests

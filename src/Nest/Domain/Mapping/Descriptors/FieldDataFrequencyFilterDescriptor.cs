@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	public class FieldDataFrequencyFilterDescriptor
 	{

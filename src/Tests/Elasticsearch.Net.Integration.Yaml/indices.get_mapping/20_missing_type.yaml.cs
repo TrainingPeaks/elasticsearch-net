@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesGetMapping2
+namespace ES.Net.Integration.Yaml.IndicesGetMapping2
 {
 	public partial class IndicesGetMapping2YamlTests
 	{	

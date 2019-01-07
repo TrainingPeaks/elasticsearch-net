@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentAssertions;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Indices
+namespace Nest17.Tests.Integration.Indices
 {
 	[TestFixture]
 	public class SyncedFlushTests : IntegrationTests

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Nest.Domain;
+using Nest17.Domain;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IMultiPercolateResponse : IResponse
 	{

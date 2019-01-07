@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using Nest.Resolvers.Converters.Filters;
+using Nest17.Resolvers.Converters.Filters;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(TermsFilterConverter))]
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]

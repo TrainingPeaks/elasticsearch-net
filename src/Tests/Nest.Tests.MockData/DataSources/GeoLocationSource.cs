@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using AutoPoco.Engine;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.MockData.DataSources
+namespace Nest17.Tests.MockData.DataSources
 {
 	public class GeoLocationSource : DatasourceBase<Domain.CustomGeoLocation>
 	{

@@ -1,6 +1,6 @@
 using System;
 
-namespace Elasticsearch.Net.Connection.RequestState
+namespace ES.Net.Connection.RequestState
 {
 	public interface IRequestTimings : IDisposable
 	{

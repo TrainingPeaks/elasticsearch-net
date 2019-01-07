@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Integration.Search.Template
+namespace Nest17.Tests.Integration.Search.Template
 {
 	[TestFixture]
 	public class SearchTemplateTests : IntegrationTests

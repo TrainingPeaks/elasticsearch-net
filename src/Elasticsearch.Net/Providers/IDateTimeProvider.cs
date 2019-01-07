@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Elasticsearch.Net.Providers
+namespace ES.Net.Providers
 {
 	public interface IDateTimeProvider
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
     public interface IPutScriptResponse : IResponse
     {

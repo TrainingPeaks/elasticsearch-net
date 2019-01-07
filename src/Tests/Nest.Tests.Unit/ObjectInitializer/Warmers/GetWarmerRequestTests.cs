@@ -1,11 +1,11 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Tests.Unit.ObjectInitializer.Warmers
+namespace Nest17.Tests.Unit.ObjectInitializer.Warmers
 {
 	[TestFixture]
 	public class GetWarmerRequestTests : BaseJsonTests

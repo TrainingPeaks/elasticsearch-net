@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Search.Query.Modes
+namespace Nest17.Tests.Unit.Search.Query.Modes
 {
 	[TestFixture]
 	public class QueryModesTests : BaseJsonTests

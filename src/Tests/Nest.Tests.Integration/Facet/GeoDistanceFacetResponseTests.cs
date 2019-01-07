@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Facet
+namespace Nest17.Tests.Integration.Facet
 {
 	[TestFixture]
 	public class GeoDistanceFacetResponseTests : BaseFacetTestFixture

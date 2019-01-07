@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	using TemplateExistConverter = Func<IElasticsearchResponse, Stream, ExistsResponse>;
 

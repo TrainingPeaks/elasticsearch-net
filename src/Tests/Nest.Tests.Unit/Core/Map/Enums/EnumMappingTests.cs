@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Core.Map.Enums
+namespace Nest17.Tests.Unit.Core.Map.Enums
 {
 	[TestFixture]
 	public class EnumMappingTests : BaseJsonTests

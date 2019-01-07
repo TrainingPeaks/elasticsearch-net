@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.QueryParsers.Visitor
+namespace Nest17.Tests.Unit.QueryParsers.Visitor
 {
 	[TestFixture]
 	public class VisitorDemoUseCase

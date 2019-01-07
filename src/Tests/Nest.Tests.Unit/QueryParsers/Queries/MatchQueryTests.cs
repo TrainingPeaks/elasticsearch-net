@@ -1,8 +1,8 @@
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.QueryParsers.Queries
+namespace Nest17.Tests.Unit.QueryParsers.Queries
 {
 	[TestFixture]
 	public class MatchQueryTests : ParseQueryTestsBase

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Nest.Domain;
+using Nest17.Domain;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
 using System;
 using System.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	public interface ISearchResponse<T> : IResponse where T : class
 	{

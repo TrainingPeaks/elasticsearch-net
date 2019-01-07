@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Search.Query
+namespace Nest17.Tests.Integration.Search.Query
 {
 	[TestFixture]
 	public class FunctionScoreQueryTest : IntegrationTests

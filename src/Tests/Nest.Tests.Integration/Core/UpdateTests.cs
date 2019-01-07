@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using FluentAssertions;
-using Nest.Tests.MockData;
+using Nest17.Tests.MockData;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core
+namespace Nest17.Tests.Integration.Core
 {
 	[TestFixture]
 	public class UpdateIntegrationTests : IntegrationTests

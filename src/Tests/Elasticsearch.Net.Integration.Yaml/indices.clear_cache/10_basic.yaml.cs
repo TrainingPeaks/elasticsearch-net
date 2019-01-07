@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesClearCache1
+namespace ES.Net.Integration.Yaml.IndicesClearCache1
 {
 	public partial class IndicesClearCache1YamlTests
 	{	

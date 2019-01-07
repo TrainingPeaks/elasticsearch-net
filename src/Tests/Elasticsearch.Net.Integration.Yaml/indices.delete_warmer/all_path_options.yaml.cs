@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesDeleteWarmer1
+namespace ES.Net.Integration.Yaml.IndicesDeleteWarmer1
 {
 	public partial class IndicesDeleteWarmer1YamlTests
 	{	

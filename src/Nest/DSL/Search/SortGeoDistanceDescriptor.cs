@@ -4,9 +4,9 @@ using System.Linq;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
 using System.Globalization;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(CustomJsonConverter))]
 	public interface IGeoDistanceSort : ISort, ICustomJson

@@ -1,6 +1,6 @@
 using System;
 
-namespace Nest
+namespace Nest17
 {
 	public class RestoreObserver : CoordinatedRequestObserver<IRecoveryStatusResponse>
 	{

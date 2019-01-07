@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using Elasticsearch.Net;
-using Elasticsearch.Net.ConnectionPool;
+using ES.Net;
+using ES.Net.ConnectionPool;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Bulk
+namespace Nest17.Tests.Integration.Core.Bulk
 {
 	[TestFixture]
 	public class SniffTests : IntegrationTests

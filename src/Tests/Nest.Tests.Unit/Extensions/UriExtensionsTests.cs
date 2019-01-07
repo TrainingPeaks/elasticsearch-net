@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace Nest.Tests.Unit.Extensions
+namespace Nest17.Tests.Unit.Extensions
 {
     [TestFixture]
     public class UriExtensionsTests

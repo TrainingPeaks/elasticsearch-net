@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
-using Elasticsearch.Net.Connection;
-using Nest.Tests.MockData.Domain;
+using ES.Net.Connection;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Internals.Inferno
+namespace Nest17.Tests.Unit.Internals.Inferno
 {
 	[TestFixture]
 	public class MapIdPropertyForTests : BaseJsonTests

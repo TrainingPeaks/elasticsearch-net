@@ -1,4 +1,4 @@
-﻿using Nest.Tests.MockData.Domain;
+﻿using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Core.Map.Transform
+namespace Nest17.Tests.Unit.Core.Map.Transform
 {
 	[TestFixture]
 	public class MappingTansformTests : BaseJsonTests

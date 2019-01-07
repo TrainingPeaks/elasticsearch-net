@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Reproduce
+namespace Nest17.Tests.Unit.Reproduce
 {
 	[ElasticType(Name="mypoco", IdProperty="Code")]
 	public class MyPoco

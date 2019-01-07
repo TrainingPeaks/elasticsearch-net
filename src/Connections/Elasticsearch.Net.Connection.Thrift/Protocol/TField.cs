@@ -21,7 +21,7 @@
  * details.
  */
 
-namespace Elasticsearch.Net.Connection.Thrift.Protocol
+namespace ES.Net.Connection.Thrift.Protocol
 {
 	public struct TField
 	{

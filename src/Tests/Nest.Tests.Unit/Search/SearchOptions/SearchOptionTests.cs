@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
-using Elasticsearch.Net;
+using Nest17.Tests.MockData.Domain;
+using ES.Net;
 
-namespace Nest.Tests.Unit.Search.SearchOptions
+namespace Nest17.Tests.Unit.Search.SearchOptions
 {
 	using System.Collections.Generic;
 	using System.Linq;

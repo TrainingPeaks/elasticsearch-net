@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Nest
+namespace Nest17
 {
 	public class MoreLikeThisQueryDocumentsDescriptor<T> where T : class
 	{

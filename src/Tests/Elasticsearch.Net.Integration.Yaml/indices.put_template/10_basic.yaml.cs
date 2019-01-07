@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesPutTemplate1
+namespace ES.Net.Integration.Yaml.IndicesPutTemplate1
 {
 	public partial class IndicesPutTemplate1YamlTests
 	{	

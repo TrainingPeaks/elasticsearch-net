@@ -4,7 +4,7 @@ using Newtonsoft.Json.Converters;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace Nest.Resolvers.Converters
+namespace Nest17.Resolvers.Converters
 {
 	public class GeoPrecisionConverter : JsonConverter
 	{

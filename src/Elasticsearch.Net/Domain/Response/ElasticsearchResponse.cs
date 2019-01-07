@@ -11,13 +11,13 @@ using System.Text.RegularExpressions;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Exceptions;
-using Elasticsearch.Net.Serialization;
+using ES.Net;
+using ES.Net.Connection;
+using ES.Net.ConnectionPool;
+using ES.Net.Exceptions;
+using ES.Net.Serialization;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	// TODO: Make this class internal in 2.0
 	public static class ElasticsearchResponse

@@ -1,4 +1,4 @@
-﻿using Nest.Tests.Unit.Core.Indices.Analysis.Tokenizers;
+﻿using Nest17.Tests.Unit.Core.Indices.Analysis.Tokenizers;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Core.Indices.Analysis.TokenFilters
+namespace Nest17.Tests.Unit.Core.Indices.Analysis.TokenFilters
 {
 	[TestFixture]
 	public class TokenFilterTests : BaseAnalysisTests

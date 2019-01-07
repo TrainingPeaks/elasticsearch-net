@@ -1,6 +1,6 @@
 using System;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public class RequestMetrics
 	{

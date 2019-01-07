@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Nest.DSL.Query.Behaviour;
-using Nest.Resolvers;
+using Nest17.DSL.Query.Behaviour;
+using Nest17.Resolvers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Nest
+namespace Nest17
 {
 
 

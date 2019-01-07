@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using FluentAssertions;
 
-namespace Nest.Tests.Unit.Search.Aggregations
+namespace Nest17.Tests.Unit.Search.Aggregations
 {
     [TestFixture]
     public class SingleBucketAggregationTests

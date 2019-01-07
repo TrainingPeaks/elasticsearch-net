@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
     /// <summary>
     /// Basic support for hunspell stemming. 

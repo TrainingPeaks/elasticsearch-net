@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest.DSL.Visitor
+namespace Nest17.DSL.Visitor
 {
 	public class DslPrettyPrintVisitor : IQueryVisitor
 	{

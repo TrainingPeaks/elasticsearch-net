@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core.Map.BoostField
+namespace Nest17.Tests.Integration.Core.Map.BoostField
 {
 	[TestFixture]
 	public class BoostFieldTests : BaseMappingTests

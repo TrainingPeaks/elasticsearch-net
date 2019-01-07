@@ -1,11 +1,11 @@
 ﻿using System;
-using Elasticsearch.Net;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Exceptions;
+using ES.Net;
+using ES.Net.ConnectionPool;
+using ES.Net.Exceptions;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Failover
+namespace Nest17.Tests.Integration.Failover
 {
 
 	/// <summary>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Reproduce
+namespace Nest17.Tests.Unit.Reproduce
 {
 	/// <summary>
 	/// tests to reproduce reported errors

@@ -4,7 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using System.Globalization;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IGeoDistanceRangeFilter : IFilter

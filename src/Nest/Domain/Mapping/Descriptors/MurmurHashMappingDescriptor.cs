@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	public class MurmurHashMappingDescriptor<T> where T : class
 	{

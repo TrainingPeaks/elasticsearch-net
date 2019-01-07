@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.ClusterReroute2
+namespace ES.Net.Integration.Yaml.ClusterReroute2
 {
 	public partial class ClusterReroute2YamlTests
 	{	

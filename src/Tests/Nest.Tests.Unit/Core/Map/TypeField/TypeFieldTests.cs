@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Map.TypeField
+namespace Nest17.Tests.Unit.Core.Map.TypeField
 {
 	[TestFixture]
 	public class TypeFieldTests : BaseJsonTests

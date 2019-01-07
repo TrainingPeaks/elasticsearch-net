@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Elasticsearch.Net.Providers;
+using ES.Net.Providers;
 
-namespace Elasticsearch.Net.Tests.Unit.Memory.Helpers
+namespace ES.Net.Tests.Unit.Memory.Helpers
 {
 	public class TrackableMemoryStreamProvider : IMemoryStreamProvider
 	{

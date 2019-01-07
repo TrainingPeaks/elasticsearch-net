@@ -1,8 +1,8 @@
 ﻿using System;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net;
+using ES.Net.Connection.Configuration;
 
-namespace Nest
+namespace Nest17
 {
 	public abstract class BasePathDescriptor<TDescriptor, TParameters> : BaseRequest<TParameters>
 		where TDescriptor : BasePathDescriptor<TDescriptor, TParameters>

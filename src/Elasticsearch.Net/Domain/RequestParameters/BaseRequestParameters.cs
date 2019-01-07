@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net.Connection;
+using ES.Net.Connection.Configuration;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public class RequestParameters : IRequestParameters
 	{

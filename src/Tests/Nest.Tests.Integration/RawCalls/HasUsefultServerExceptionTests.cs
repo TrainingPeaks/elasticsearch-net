@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.RawCalls
+namespace Nest17.Tests.Integration.RawCalls
 {
 	[TestFixture]
 	public class HasUsefultServerExceptionTests : IntegrationTests

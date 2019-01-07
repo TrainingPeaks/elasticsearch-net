@@ -4,7 +4,7 @@ using System.Linq;
 using NUnit.Framework;
 using FluentAssertions;
 
-namespace Nest.Tests.Integration.Reproduce
+namespace Nest17.Tests.Integration.Reproduce
 {
 	/// <summary>
 	/// tests to reproduce reported errors

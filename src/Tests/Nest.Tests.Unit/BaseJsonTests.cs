@@ -4,14 +4,14 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
+using ES.Net;
+using ES.Net.Connection;
 using NUnit.Framework;
 using Newtonsoft.Json;
 using System.Reflection;
 using System.IO;
 
-namespace Nest.Tests.Unit
+namespace Nest17.Tests.Unit
 {
 	public static class UnitTestDefaults
 	{

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core.TermVectors
+namespace Nest17.Tests.Integration.Core.TermVectors
 {
 	[TestFixture]
 	public class MultiTermVectorsTests : IntegrationTests

@@ -1,7 +1,7 @@
-﻿using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Exceptions;
+﻿using ES.Net.ConnectionPool;
+using ES.Net.Exceptions;
 using FluentAssertions;
-using Nest;
+using Nest17;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Integration.Reproduce
+namespace Nest17.Tests.Integration.Reproduce
 {
 	public class Reproduce1176Tests
 	{

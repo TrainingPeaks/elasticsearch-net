@@ -5,12 +5,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.JsonNet;
+using ES.Net.Connection;
+using ES.Net.JsonNet;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 
-namespace Elasticsearch.Net.Integration.Yaml
+namespace ES.Net.Integration.Yaml
 {
 	public class YamlTestsBase
 	{

@@ -2,13 +2,13 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac.Extras.FakeItEasy;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Connection;
+using ES.Net.Tests.Unit.Stubs;
 using FakeItEasy;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Elasticsearch.Net.Tests.Unit.Exceptions
+namespace ES.Net.Tests.Unit.Exceptions
 {
 	[TestFixture]
 	public class ElasticsearchServerExceptions

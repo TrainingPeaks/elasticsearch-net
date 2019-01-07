@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	/// <summary>
 	/// Internal Message Handler that is used by the HttpClientConnection. This class cannot be inherited.

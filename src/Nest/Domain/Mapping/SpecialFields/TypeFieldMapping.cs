@@ -1,8 +1,8 @@
-﻿using Nest.Resolvers.Converters;
+﻿using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(ReadAsTypeConverter<TypeFieldMapping>))]
 	public interface ITypeFieldMapping : ISpecialField

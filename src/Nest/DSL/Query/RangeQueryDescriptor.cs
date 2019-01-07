@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Nest.DSL.Query.Behaviour;
+using Nest17.DSL.Query.Behaviour;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IRangeQuery : IFieldNameQuery

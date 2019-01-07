@@ -3,7 +3,7 @@ using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Repository
+namespace Nest17.Tests.Integration.Core.Repository
 {
 	[TestFixture]
 	public class CreateRepositoryTests : IntegrationTests

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Scroll1
+namespace ES.Net.Integration.Yaml.Scroll1
 {
 	public partial class Scroll1YamlTests
 	{	

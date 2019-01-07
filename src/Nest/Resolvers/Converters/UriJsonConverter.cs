@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Converter for converting Uri to String and vica versa

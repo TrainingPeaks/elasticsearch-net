@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Indices
+namespace Nest17.Tests.Integration.Indices
 {
 
 	/// <summary>

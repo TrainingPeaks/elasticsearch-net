@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Search.SubClassSupport
+namespace Nest17.Tests.Integration.Search.SubClassSupport
 {
 	[TestFixture]
 	public class SubClassSupportTests : IntegrationTests

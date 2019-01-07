@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IGlobalInnerHit : IInnerHits
 	{

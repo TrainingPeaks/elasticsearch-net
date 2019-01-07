@@ -1,7 +1,7 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.QueryParsers.Queries
+namespace Nest17.Tests.Unit.QueryParsers.Queries
 {
 	[TestFixture]
 	public class SimpleQueryStringQueryTests : ParseQueryTestsBase

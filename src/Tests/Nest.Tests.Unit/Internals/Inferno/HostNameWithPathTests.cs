@@ -1,10 +1,10 @@
-﻿using Elasticsearch.Net.Connection;
+﻿using ES.Net.Connection;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System;
 using FluentAssertions;
 
-namespace Nest.Tests.Unit.Internals.Inferno
+namespace Nest17.Tests.Unit.Internals.Inferno
 {
 	[TestFixture]
 	public class HostNameWithPathTests

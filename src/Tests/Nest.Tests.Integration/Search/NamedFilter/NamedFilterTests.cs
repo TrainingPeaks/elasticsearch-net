@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using System.Linq;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Search.NamedFilter
+namespace Nest17.Tests.Integration.Search.NamedFilter
 {
 	[TestFixture]
 	public class NamedFilterTest : IntegrationTests

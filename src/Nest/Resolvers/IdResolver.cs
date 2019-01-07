@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace Nest.Resolvers
+namespace Nest17.Resolvers
 {
 	public class IdResolver
 	{

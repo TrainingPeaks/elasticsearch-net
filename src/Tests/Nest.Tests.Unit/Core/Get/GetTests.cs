@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Core.Get
+namespace Nest17.Tests.Unit.Core.Get
 {
 	[TestFixture]
 	public class GetTests : BaseJsonTests
@@ -15,7 +15,7 @@ namespace Nest.Tests.Unit.Core.Get
 		{
 			var result = this._client.Get<ElasticsearchProject>(g=>g.Id(1));
 			var status = result.ConnectionStatus;
-			StringAssert.Contains("USING NEST IN MEMORY CONNECTION", 
+			StringAssert.Contains("using Nest17 IN MEMORY CONNECTION", 
 				result.ConnectionStatus.ResponseRaw.Utf8String());
 			StringAssert.EndsWith("/nest_test_data/elasticsearchprojects/1", status.RequestUrl);
 		}

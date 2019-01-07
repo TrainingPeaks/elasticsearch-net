@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Marker interface for alias operation

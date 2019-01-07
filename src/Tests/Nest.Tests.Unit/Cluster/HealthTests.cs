@@ -1,9 +1,9 @@
 ﻿using System;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Cluster
+namespace Nest17.Tests.Unit.Cluster
 {
 	[TestFixture]
 	public class HealthTests : BaseJsonTests

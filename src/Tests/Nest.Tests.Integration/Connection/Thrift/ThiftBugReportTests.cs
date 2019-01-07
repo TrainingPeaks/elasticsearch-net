@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Elasticsearch.Net.Connection.Thrift;
-using Elasticsearch.Net.ConnectionPool;
+using ES.Net.Connection.Thrift;
+using ES.Net.ConnectionPool;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Bulk
+namespace Nest17.Tests.Integration.Core.Bulk
 {
 	[TestFixture]
 	public class ThiftBugReportTests : IntegrationTests

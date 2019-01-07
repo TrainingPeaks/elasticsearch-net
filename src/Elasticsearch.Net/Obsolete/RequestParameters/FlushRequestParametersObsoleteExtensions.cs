@@ -1,10 +1,10 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public static class FlushRequestParametersObsoleteExtensions
 	{

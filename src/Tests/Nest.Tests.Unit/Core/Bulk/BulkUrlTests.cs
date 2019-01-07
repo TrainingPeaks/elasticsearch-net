@@ -1,10 +1,10 @@
 ﻿using System;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Core.Bulk
+namespace Nest17.Tests.Unit.Core.Bulk
 {
 	[TestFixture]
 	public class BulkUrlTests : BaseJsonTests

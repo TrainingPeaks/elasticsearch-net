@@ -1,8 +1,8 @@
-﻿using Elasticsearch.Net;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Exceptions;
+﻿using ES.Net;
+using ES.Net.ConnectionPool;
+using ES.Net.Exceptions;
 using FluentAssertions;
-using Nest;
+using Nest17;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

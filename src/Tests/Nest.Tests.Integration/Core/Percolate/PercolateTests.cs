@@ -2,11 +2,11 @@
 using System.Linq;
 using System.Runtime.InteropServices;
 using FluentAssertions;
-using Nest.Resolvers;
-using Nest.Tests.MockData.Domain;
+using Nest17.Resolvers;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Percolate
+namespace Nest17.Tests.Integration.Core.Percolate
 {
 	[TestFixture]
 	public class PercolateTests : IntegrationTests

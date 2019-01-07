@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Query.UpdateQuery
+namespace Nest17.Tests.Unit.Search.Query.UpdateQuery
 {
 	[TestFixture]
 	public class UpdateQueriesTests : BaseJsonTests

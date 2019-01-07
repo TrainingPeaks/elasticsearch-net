@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoPoco.Engine;
 using AutoPoco;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using AutoPoco.DataSources;
-using Nest.Tests.MockData.DataSources;
+using Nest17.Tests.MockData.DataSources;
 
-namespace Nest.Tests.MockData
+namespace Nest17.Tests.MockData
 {
 	public static class NestTestData
 	{

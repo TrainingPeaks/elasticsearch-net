@@ -5,13 +5,13 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net.Connection.Configuration;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	public class InMemoryConnection : HttpConnection
 	{
-		private byte[] _fixedResultBytes = Encoding.UTF8.GetBytes("{ \"USING NEST IN MEMORY CONNECTION\"  : null }");
+		private byte[] _fixedResultBytes = Encoding.UTF8.GetBytes("{ \"using Nest17 IN MEMORY CONNECTION\"  : null }");
 		private int _statusCode;
 
 		public List<Tuple<string, Uri, byte[]>> Requests = new List<Tuple<string, Uri, byte[]>>(); 

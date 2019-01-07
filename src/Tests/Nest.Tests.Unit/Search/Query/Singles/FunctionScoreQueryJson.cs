@@ -1,7 +1,7 @@
-﻿using Nest.Tests.MockData.Domain;
+﻿using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Search.Query.Singles
+namespace Nest17.Tests.Unit.Search.Query.Singles
 {
 	[TestFixture]
 	public class FunctionScoreQueryTests

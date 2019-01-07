@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Connection.Configuration;
-using Elasticsearch.Net.Exceptions;
+using ES.Net;
+using ES.Net.Connection;
+using ES.Net.Connection.Configuration;
+using ES.Net.Exceptions;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// ElasticClient is NEST's strongly typed client which exposes fully mapped elasticsearch endpoints

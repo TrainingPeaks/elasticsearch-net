@@ -1,8 +1,8 @@
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.QueryParsers.Filter
+namespace Nest17.Tests.Unit.QueryParsers.Filter
 {
 	[TestFixture]
 	public class GeoIndexShapeFilterTests : ParseFilterTestsBase 

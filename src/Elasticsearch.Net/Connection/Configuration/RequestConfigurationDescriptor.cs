@@ -1,8 +1,8 @@
-using Elasticsearch.Net.Connection.Security;
+using ES.Net.Connection.Security;
 using System;
 using System.Collections.Generic;
 
-namespace Elasticsearch.Net.Connection.Configuration
+namespace ES.Net.Connection.Configuration
 {
 	public class RequestConfigurationDescriptor : IRequestConfiguration
 	{

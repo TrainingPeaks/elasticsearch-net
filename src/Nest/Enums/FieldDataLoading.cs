@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(StringEnumConverter))]
 	public enum FieldDataLoading

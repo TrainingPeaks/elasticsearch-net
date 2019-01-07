@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nest.DSL.Visitor;
-using Nest.Resolvers.Converters;
-using Nest.Resolvers.Converters.Filters;
+using Nest17.DSL.Visitor;
+using Nest17.Resolvers.Converters;
+using Nest17.Resolvers.Converters.Filters;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	[JsonConverter(typeof(ReadAsTypeConverter<FilterContainer>))]

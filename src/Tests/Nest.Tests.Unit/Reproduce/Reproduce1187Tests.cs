@@ -4,7 +4,7 @@ using NUnit.Framework;
 using System;
 using System.Text;
 
-namespace Nest.Tests.Unit.Reproduce
+namespace Nest17.Tests.Unit.Reproduce
 {
 	[TestFixture]
 	public class Reproduce1187Tests : BaseJsonTests

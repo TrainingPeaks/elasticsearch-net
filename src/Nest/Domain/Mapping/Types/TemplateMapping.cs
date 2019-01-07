@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	//	[JsonConverter(typeof(TemplateMappingConverter))]
 	//	[JsonObject(MemberSerialization.OptIn)]

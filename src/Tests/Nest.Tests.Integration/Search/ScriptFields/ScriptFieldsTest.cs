@@ -1,10 +1,10 @@
 ﻿using System.Linq;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Integration.Search.ScriptFields
+namespace Nest17.Tests.Integration.Search.ScriptFields
 {
 	[TestFixture]
 	public class ScriptFieldsTest : IntegrationTests

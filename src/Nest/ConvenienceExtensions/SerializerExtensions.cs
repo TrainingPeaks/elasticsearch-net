@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Nest.SerializationExtensions
+namespace Nest17.SerializationExtensions
 {
 	public static class SerializerExtensions
 	{

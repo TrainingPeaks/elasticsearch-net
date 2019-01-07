@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public class RandomScoreFunction<T> : FunctionScoreFunction<T> where T : class
 	{

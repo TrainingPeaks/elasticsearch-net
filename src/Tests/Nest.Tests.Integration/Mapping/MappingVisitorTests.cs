@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Text;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
-using Nest.DSL.Visitor;
-using Nest.Tests.MockData.Domain;
+using Nest17.DSL.Visitor;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Mapping
+namespace Nest17.Tests.Integration.Mapping
 {
 	[TestFixture]
 	public class MappingVisitorTests : IntegrationTests

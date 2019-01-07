@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net.Connection.Configuration;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	public enum TransportAddressScheme
 	{

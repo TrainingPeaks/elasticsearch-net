@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
-using Nest.Resolvers.Writers;
+using Nest17.Resolvers.Writers;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IPutMappingRequest : IIndicesTypePath<PutMappingRequestParameters>

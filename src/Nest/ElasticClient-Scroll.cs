@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public partial class ElasticClient
 	{

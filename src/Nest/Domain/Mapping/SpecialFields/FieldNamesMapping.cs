@@ -1,9 +1,9 @@
 ﻿using System;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(ReadAsTypeConverter<FieldNamesFieldMapping>))]
 	public interface IFieldNamesFieldMapping : ISpecialField

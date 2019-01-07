@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	public class Bucket<TBucketItem> : BucketAggregationBase
 		where TBucketItem : IBucketItem

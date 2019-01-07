@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	public class FieldDataFilter

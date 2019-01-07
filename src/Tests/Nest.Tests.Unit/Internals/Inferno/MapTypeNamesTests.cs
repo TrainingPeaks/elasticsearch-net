@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using FluentAssertions;
 
-namespace Nest.Tests.Unit.Internals.Inferno
+namespace Nest17.Tests.Unit.Internals.Inferno
 {
 	[TestFixture]
 	public class MapTypeNamesTests

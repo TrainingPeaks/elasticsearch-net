@@ -24,7 +24,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
-namespace Elasticsearch.Net.Connection.Thrift.Transport
+namespace ES.Net.Connection.Thrift.Transport
 {
 	public class THttpClient : TTransport
 	{

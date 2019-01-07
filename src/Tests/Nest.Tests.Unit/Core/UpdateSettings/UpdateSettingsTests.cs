@@ -2,7 +2,7 @@
 using System.Reflection;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.UpdateSettings
+namespace Nest17.Tests.Unit.Core.UpdateSettings
 {
 	[TestFixture]
 	public class UpdateSettingsTests : BaseJsonTests

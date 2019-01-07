@@ -2,7 +2,7 @@
 using System.Linq;
 using Newtonsoft.Json;
 
-namespace Nest.Resolvers.Converters.Aggregations
+namespace Nest17.Resolvers.Converters.Aggregations
 {
 	public class FiltersAggregatorConverter : JsonConverter
 	{

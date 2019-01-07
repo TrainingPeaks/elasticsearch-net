@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Elasticsearch.Net;
+using ES.Net;
 using FakeItEasy;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Reproduce
+namespace Nest17.Tests.Unit.Reproduce
 {
 	/// <summary>
 	/// tests to reproduce reported errors

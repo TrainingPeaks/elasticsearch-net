@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	public interface ITermvectorRequest : IDocumentOptionalPath<TermvectorRequestParameters>
 	{

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.GetSource4
+namespace ES.Net.Integration.Yaml.GetSource4
 {
 	public partial class GetSource4YamlTests
 	{	

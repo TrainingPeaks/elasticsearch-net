@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nest
+namespace Nest17
 {
 	[AttributeUsage(System.AttributeTargets.Property, AllowMultiple = false)]
 	public class ElasticPropertyAttribute : Attribute, IElasticPropertyAttribute

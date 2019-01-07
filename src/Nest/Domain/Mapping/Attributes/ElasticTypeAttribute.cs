@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	[AttributeUsage(System.AttributeTargets.Class, AllowMultiple = false)]
 	public class ElasticTypeAttribute : Attribute 

@@ -2,15 +2,15 @@
 using System.IO;
 using Autofac;
 using Autofac.Extras.FakeItEasy;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Providers;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Connection;
+using ES.Net.Providers;
+using ES.Net.Tests.Unit.Stubs;
 using FakeItEasy;
 using FluentAssertions;
 using NUnit.Framework;
-using Elasticsearch.Net.ConnectionPool;
+using ES.Net.ConnectionPool;
 
-namespace Elasticsearch.Net.Tests.Unit.ConnectionPools
+namespace ES.Net.Tests.Unit.ConnectionPools
 {
 	[TestFixture]
 	public class SingleNodeConnectionPoolTests

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core.Map.SourceField
+namespace Nest17.Tests.Integration.Core.Map.SourceField
 {
 	[TestFixture]
 	public class SourceFieldTests : BaseMappingTests

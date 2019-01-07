@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Nest
+namespace Nest17
 {
 	public class ReindexDescriptor<T> where T : class
 	{

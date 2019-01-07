@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.Map.CustomMapping
+namespace Nest17.Tests.Unit.Core.Map.CustomMapping
 {
 	[TestFixture]
 	public class ImagePluginMappingTests : BaseJsonTests

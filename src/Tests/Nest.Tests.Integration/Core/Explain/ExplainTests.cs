@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
-using Nest.Resolvers;
-using Nest.Tests.MockData.Domain;
+using Nest17.Resolvers;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Explain
+namespace Nest17.Tests.Integration.Core.Explain
 {
 	[TestFixture]
 	public class ExplainTests : IntegrationTests

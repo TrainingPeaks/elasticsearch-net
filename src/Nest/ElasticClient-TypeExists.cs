@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	using TypeExistConverter = Func<IElasticsearchResponse, Stream, ExistsResponse>;
 

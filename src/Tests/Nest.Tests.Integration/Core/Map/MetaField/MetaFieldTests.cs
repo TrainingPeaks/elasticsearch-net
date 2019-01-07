@@ -1,8 +1,8 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core.Map.MetaField
+namespace Nest17.Tests.Integration.Core.Map.MetaField
 {
 	[TestFixture]
 	public class MetaFieldTests : BaseMappingTests

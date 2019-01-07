@@ -1,8 +1,8 @@
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(TermsIncludeExcludeConverter))]
 	public class TermsIncludeExclude

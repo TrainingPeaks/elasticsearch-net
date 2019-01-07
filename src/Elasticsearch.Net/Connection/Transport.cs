@@ -9,16 +9,16 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection.Configuration;
-using Elasticsearch.Net.Connection.RequestHandlers;
-using Elasticsearch.Net.Connection.RequestState;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Exceptions;
-using Elasticsearch.Net.Providers;
-using Elasticsearch.Net.Serialization;
+using ES.Net.Connection.Configuration;
+using ES.Net.Connection.RequestHandlers;
+using ES.Net.Connection.RequestState;
+using ES.Net.ConnectionPool;
+using ES.Net.Exceptions;
+using ES.Net.Providers;
+using ES.Net.Serialization;
 using Purify;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	public class Transport : ITransport, ITransportDelegator
 	{

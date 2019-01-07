@@ -5,7 +5,7 @@ using System.Globalization;
  * Taken from SolrNet https://github.com/mausch/SolrNet/blob/master/SolrNet/Location.cs
  */
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Represents a Latitude/Longitude as a 2 dimensional point. 

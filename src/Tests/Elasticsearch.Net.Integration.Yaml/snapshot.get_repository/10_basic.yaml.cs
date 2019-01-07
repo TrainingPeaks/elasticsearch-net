@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.SnapshotGetRepository1
+namespace ES.Net.Integration.Yaml.SnapshotGetRepository1
 {
 	public partial class SnapshotGetRepository1YamlTests
 	{	

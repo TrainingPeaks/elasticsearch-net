@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Mget3
+namespace ES.Net.Integration.Yaml.Mget3
 {
 	public partial class Mget3YamlTests
 	{	

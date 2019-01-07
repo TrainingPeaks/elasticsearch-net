@@ -1,11 +1,11 @@
-﻿using Nest.Domain;
+﻿using Nest17.Domain;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	public interface ISearchShardsResponse : IResponse

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net.Connection;
+using ES.Net.Connection.Configuration;
 
-namespace Elasticsearch.Net.Tests.Unit.Stubs
+namespace ES.Net.Tests.Unit.Stubs
 {
 	public interface IUriObserver
 	{

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// A tokenizer of type letter that divides text at non-letters. That’s to say, it defines tokens as maximal strings of adjacent letters. 

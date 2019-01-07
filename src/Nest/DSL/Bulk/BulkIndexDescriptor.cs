@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
 using Newtonsoft.Json;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IIndexOperation<T> : IBulkOperation
 	{

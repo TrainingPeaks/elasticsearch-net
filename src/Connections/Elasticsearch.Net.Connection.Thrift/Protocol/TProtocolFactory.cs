@@ -21,9 +21,9 @@
  * details.
  */
 
-using Elasticsearch.Net.Connection.Thrift.Transport;
+using ES.Net.Connection.Thrift.Transport;
 
-namespace Elasticsearch.Net.Connection.Thrift.Protocol
+namespace ES.Net.Connection.Thrift.Protocol
 {
 	public interface TProtocolFactory
 	{

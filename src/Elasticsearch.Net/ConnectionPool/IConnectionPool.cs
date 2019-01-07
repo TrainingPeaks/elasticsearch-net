@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Elasticsearch.Net.Connection;
+using ES.Net.Connection;
 
-namespace Elasticsearch.Net.ConnectionPool
+namespace ES.Net.ConnectionPool
 {
 	public interface IConnectionPool
 	{

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Bulk
+namespace Nest17.Tests.Unit.Core.Bulk
 {
 	[TestFixture]
 	public class BulkTests : BaseJsonTests

@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Map.AnalyzerField
+namespace Nest17.Tests.Unit.Core.Map.AnalyzerField
 {
 	[TestFixture]
 	public class AnalyzerFieldTests : BaseJsonTests

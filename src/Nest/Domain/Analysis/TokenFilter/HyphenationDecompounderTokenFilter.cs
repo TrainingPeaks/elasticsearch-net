@@ -1,4 +1,4 @@
-namespace Nest
+namespace Nest17
 {
 	public class HyphenationDecompounderTokenFilter : CompoundWordTokenFilter
 	{

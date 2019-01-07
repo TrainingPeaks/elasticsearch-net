@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System.Diagnostics;
 using FluentAssertions;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Integration.Reproduce
+namespace Nest17.Tests.Integration.Reproduce
 {
 	[TestFixture]
 	public class ReproduceConnectionStallsTests : IntegrationTests

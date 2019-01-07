@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 
-namespace Nest.Resolvers.Converters
+namespace Nest17.Resolvers.Converters
 {
 	public class WarmerMappingConverter : JsonConverter
 	{

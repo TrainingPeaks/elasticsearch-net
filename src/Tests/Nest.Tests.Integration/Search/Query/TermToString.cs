@@ -1,10 +1,10 @@
 ﻿using System;
-using Elasticsearch.Net;
+using ES.Net;
 using NUnit.Framework;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Search.Query
+namespace Nest17.Tests.Integration.Search.Query
 {
 	[TestFixture]
 	public class TermToStringJson : IntegrationTests

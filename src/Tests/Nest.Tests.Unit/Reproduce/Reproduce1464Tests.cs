@@ -1,4 +1,4 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System;
@@ -8,9 +8,9 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection;
+using ES.Net.Connection;
 
-namespace Nest.Tests.Unit.Reproduce
+namespace Nest17.Tests.Unit.Reproduce
 {
 	[TestFixture]
 	public class Reproduce1464Tests : BaseJsonTests

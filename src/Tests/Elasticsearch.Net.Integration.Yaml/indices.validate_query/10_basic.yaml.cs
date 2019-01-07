@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesValidateQuery1
+namespace ES.Net.Integration.Yaml.IndicesValidateQuery1
 {
 	public partial class IndicesValidateQuery1YamlTests
 	{	

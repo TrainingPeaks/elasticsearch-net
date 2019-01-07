@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public partial interface IElasticsearchClient
 	{	

@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Aggregations
+namespace Nest17.Tests.Integration.Aggregations
 {
 	[TestFixture]
 	public class FiltersAggregationTests : IntegrationTests

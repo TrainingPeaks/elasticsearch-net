@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using FluentAssertions;
 
-namespace Nest.Tests.Integration.Core
+namespace Nest17.Tests.Integration.Core
 {
 	[TestFixture]
 	public class FieldStatsTests : IntegrationTests
@@ -48,7 +48,7 @@ namespace Nest.Tests.Integration.Core
 			var r = this.Client.FieldStats(fs => fs
 				.Index(ElasticsearchConfiguration.DefaultIndex)
 				.Fields("name")
-				.Level(Elasticsearch.Net.Level.Indices)
+				.Level(ES.Net.Level.Indices)
 			);
 			r.IsValid.Should().BeTrue();
 			r.Shards.Should().NotBeNull();

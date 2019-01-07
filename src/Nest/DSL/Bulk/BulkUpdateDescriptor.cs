@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IBulkUpdateOperation<TDocument, TPartialDocument> : IBulkOperation
 		where TDocument : class

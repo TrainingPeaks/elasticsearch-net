@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
-using Nest.Domain;
+using Nest17.Domain;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IMultiGetHit<out T> where T : class
 	{

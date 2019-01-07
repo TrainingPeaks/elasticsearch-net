@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Delete7
+namespace ES.Net.Integration.Yaml.Delete7
 {
 	public partial class Delete7YamlTests
 	{	

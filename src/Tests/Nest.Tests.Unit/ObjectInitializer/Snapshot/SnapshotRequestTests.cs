@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.ObjectInitializer.Snapshot
+namespace Nest17.Tests.Unit.ObjectInitializer.Snapshot
 {
 	[TestFixture]
 	public class SnapshotRequestTests : BaseJsonTests

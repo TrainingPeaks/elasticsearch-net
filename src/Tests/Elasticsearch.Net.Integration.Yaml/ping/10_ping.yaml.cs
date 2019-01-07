@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Ping1
+namespace ES.Net.Integration.Yaml.Ping1
 {
 	public partial class Ping1YamlTests
 	{	

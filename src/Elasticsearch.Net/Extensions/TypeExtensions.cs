@@ -5,9 +5,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
-using Elasticsearch.Net.Connection;
+using ES.Net.Connection;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	internal static class TypeExtensions
 	{

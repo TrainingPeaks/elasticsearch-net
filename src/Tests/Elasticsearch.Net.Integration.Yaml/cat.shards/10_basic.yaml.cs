@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.CatShards1
+namespace ES.Net.Integration.Yaml.CatShards1
 {
 	public partial class CatShards1YamlTests
 	{	

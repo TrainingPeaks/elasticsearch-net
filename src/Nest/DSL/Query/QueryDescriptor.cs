@@ -4,7 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	public class QueryDescriptor<T> : QueryContainer where T : class

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.ObjectInitializer.MultiTermVectors
+namespace Nest17.Tests.Unit.ObjectInitializer.MultiTermVectors
 {
 	[TestFixture]
 	public class MultiTermVectorsWithDocumentRequestTests : BaseJsonTests

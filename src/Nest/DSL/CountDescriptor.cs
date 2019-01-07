@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Elasticsearch.Net;
+using ES.Net;
 using Newtonsoft.Json;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface ICountRequest : IQueryPath<CountRequestParameters>

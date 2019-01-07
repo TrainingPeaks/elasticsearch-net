@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesStats2
+namespace ES.Net.Integration.Yaml.IndicesStats2
 {
 	public partial class IndicesStats2YamlTests
 	{	

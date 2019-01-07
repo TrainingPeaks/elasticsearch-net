@@ -5,12 +5,12 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
-using Elasticsearch.Net;
+using ES.Net;
 using FakeItEasy.Core;
 using Moq;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.Snapshot
+namespace Nest17.Tests.Unit.Core.Snapshot
 {
 	[TestFixture]
 	public class SnapshotObservableTests : BaseJsonTests

@@ -4,11 +4,11 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Exceptions;
-using Elasticsearch.Net.Serialization;
+using ES.Net.Connection;
+using ES.Net.Exceptions;
+using ES.Net.Serialization;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	/// <summary>
 	/// Low level client that exposes all of elasticsearch API endpoints but leaves you in charge of building request and handling the response

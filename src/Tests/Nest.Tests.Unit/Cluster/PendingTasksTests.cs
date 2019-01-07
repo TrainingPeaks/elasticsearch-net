@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Cluster
+namespace Nest17.Tests.Unit.Cluster
 {
 	[TestFixture]
 	public class PendingTasksTests : BaseJsonTests

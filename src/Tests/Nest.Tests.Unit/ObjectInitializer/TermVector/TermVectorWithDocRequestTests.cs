@@ -1,12 +1,12 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Tests.Unit.ObjectInitializer.TermVector
+namespace Nest17.Tests.Unit.ObjectInitializer.TermVector
 {
 	public class TermVectorWithDocRequestTests : BaseJsonTests
 	{

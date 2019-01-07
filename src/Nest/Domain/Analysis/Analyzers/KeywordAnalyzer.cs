@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// An analyzer of type keyword that “tokenizes” an entire stream as a single token. This is useful for data like zip codes, ids and so on. 

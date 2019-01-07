@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	// THESE CLASSES HAD BEEN GENERATED ALREADY BUT NOT EXPOSED THROUGH THE CLIENT
 	// WHILE ADDING THERE RESPECTIVE API's TO THE CLIENT WE RENAMED THEM TO BETTER SUITED NAMES

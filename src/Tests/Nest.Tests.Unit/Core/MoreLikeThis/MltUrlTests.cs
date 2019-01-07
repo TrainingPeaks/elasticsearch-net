@@ -1,8 +1,8 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Core.MoreLikeThis
+namespace Nest17.Tests.Unit.Core.MoreLikeThis
 {
 	[TestFixture]
 	public class MltUrlTests : BaseJsonTests
@@ -12,7 +12,7 @@ namespace Nest.Tests.Unit.Core.MoreLikeThis
 		{
 			var result = this._client.MoreLikeThis<ElasticsearchProject>(mlt => mlt.Id(1));
 			var status = result.ConnectionStatus;
-			StringAssert.Contains("USING NEST IN MEMORY CONNECTION", result.ConnectionStatus.ResponseRaw.Utf8String());
+			StringAssert.Contains("using Nest17 IN MEMORY CONNECTION", result.ConnectionStatus.ResponseRaw.Utf8String());
 			StringAssert.EndsWith("/nest_test_data/elasticsearchprojects/1/_mlt", status.RequestUrl);
 			StringAssert.AreEqualIgnoringCase("GET", status.RequestMethod);
 		}

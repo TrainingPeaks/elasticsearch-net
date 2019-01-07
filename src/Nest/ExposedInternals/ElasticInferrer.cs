@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using Nest.Resolvers;
+using Nest17.Resolvers;
 
-namespace Nest
+namespace Nest17
 {
 	public static class Infer
 	{

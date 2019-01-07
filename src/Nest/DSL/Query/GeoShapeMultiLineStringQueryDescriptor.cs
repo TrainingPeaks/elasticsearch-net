@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using Nest.DSL.Query.Behaviour;
-using Nest.Resolvers;
+using Nest17.DSL.Query.Behaviour;
+using Nest17.Resolvers;
 using Newtonsoft.Json;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IGeoShapeMultiLineStringQuery : IGeoShapeQuery

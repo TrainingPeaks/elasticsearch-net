@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
 
-namespace Nest
+namespace Nest17
 {
 	//TODO NEST 2.0 should this really be a flag enum?
 	[Flags]

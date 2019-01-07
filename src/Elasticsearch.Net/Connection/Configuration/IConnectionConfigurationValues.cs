@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Specialized;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Serialization;
-using Elasticsearch.Net.Connection.Security;
+using ES.Net.ConnectionPool;
+using ES.Net.Serialization;
+using ES.Net.Connection.Security;
 using System.IO;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	//TODO change timeouts to TimeSpans in 2.0?
 

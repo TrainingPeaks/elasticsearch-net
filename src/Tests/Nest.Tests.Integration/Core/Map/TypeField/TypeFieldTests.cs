@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core.Map.TypeField
+namespace Nest17.Tests.Integration.Core.Map.TypeField
 {
 	[TestFixture]
 	public class TypeFieldTests : BaseMappingTests

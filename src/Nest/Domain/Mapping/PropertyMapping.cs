@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Reflection.Emit;
-using Nest.Resolvers;
+using Nest17.Resolvers;
 
-namespace Nest
+namespace Nest17
 {
 	
 	public class PropertyMappingDescriptor<TDocument>

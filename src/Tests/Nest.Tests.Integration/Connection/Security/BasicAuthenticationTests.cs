@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using Nest;
+using Nest17;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;

@@ -4,12 +4,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.ConnectionPool;
-using Nest.Resolvers;
+using ES.Net.Connection;
+using ES.Net.ConnectionPool;
+using Nest17.Resolvers;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Provides NEST's ElasticClient with configurationsettings

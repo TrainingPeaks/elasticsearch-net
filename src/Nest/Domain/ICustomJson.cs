@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// If an object implements this then it can handle its own json representation

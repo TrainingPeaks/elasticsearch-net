@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
+using ES.Net;
+using ES.Net.Connection;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IElasticClient
 	{

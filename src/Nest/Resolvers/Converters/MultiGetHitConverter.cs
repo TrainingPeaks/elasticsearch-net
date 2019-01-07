@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest.Domain;
+using Nest17.Domain;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Reflection;
 
-namespace Nest.Resolvers.Converters
+namespace Nest17.Resolvers.Converters
 {
 
 	public class MultiGetHitConverter : JsonConverter

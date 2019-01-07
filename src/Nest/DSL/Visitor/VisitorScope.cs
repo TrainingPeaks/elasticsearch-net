@@ -1,4 +1,4 @@
-﻿namespace Nest.DSL.Visitor
+﻿namespace Nest17.DSL.Visitor
 {
 	public enum VisitorScope
 	{

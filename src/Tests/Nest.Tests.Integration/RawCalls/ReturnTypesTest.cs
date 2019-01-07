@@ -2,9 +2,9 @@
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Integration.RawCalls
+namespace Nest17.Tests.Integration.RawCalls
 {
 	[TestFixture]
 	public class ReturnTypeTests : IntegrationTests

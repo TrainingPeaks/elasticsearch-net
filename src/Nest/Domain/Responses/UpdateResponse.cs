@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Nest.Domain;
+using Nest17.Domain;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IUpdateResponse : IResponse
 	{

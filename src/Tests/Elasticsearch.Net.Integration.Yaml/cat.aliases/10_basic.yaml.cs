@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.CatAliases1
+namespace ES.Net.Integration.Yaml.CatAliases1
 {
 	public partial class CatAliases1YamlTests
 	{	

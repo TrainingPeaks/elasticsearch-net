@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using FluentAssertions;
-using Nest;
-using Nest.Tests.Integration;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17;
+using Nest17.Tests.Integration;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration
+namespace Nest17.Tests.Integration
 {
 	[SetUpFixture]
 	public class SetupAndTeardownForIntegrationTests

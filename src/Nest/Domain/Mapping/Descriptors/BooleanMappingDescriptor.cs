@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	public class BooleanMappingDescriptor<T> where T : class
 	{

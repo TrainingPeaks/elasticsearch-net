@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest;
+using Nest17;
 
 namespace Profiling.Indexing
 {

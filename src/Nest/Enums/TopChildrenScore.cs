@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using System.Runtime.Serialization;
 using Newtonsoft.Json.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(StringEnumConverter))]
 	public enum TopChildrenScore

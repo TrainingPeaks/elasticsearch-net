@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesGetAlias1
+namespace ES.Net.Integration.Yaml.IndicesGetAlias1
 {
 	public partial class IndicesGetAlias1YamlTests
 	{	

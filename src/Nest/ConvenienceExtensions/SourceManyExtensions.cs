@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Provides convenience extension methods to get many _source's given a list of ids.

@@ -1,11 +1,11 @@
-﻿using Elasticsearch.Net;
-using Nest.Tests.MockData.Domain;
+﻿using ES.Net;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Tests.Unit.Search.Suggest
+namespace Nest17.Tests.Unit.Search.Suggest
 {
 	[TestFixture]
 	public class CompletionSuggestTests : BaseJsonTests

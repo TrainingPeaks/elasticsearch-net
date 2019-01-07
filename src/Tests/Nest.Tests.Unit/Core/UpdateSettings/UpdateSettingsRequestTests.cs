@@ -1,8 +1,8 @@
 ﻿using System;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.UpdateSettings
+namespace Nest17.Tests.Unit.Core.UpdateSettings
 {
 	[TestFixture]
 	public class UpdateSettingsRequestTests : BaseJsonTests

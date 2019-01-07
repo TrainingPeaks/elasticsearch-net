@@ -1,8 +1,8 @@
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net;
+using ES.Net.Connection.Configuration;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// </summary>

@@ -1,10 +1,10 @@
-﻿using Nest.Resolvers.Converters;
+﻿using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Marker class that signals to the CustomJsonConverter to write the string verbatim

@@ -1,5 +1,5 @@
-﻿using Elasticsearch.Net.Connection;
-using Nest.Tests.MockData.Domain;
+﻿using ES.Net.Connection;
+using Nest17.Tests.MockData.Domain;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Internals.Serialize
+namespace Nest17.Tests.Unit.Internals.Serialize
 {
 	public class PartialDoc
 	{

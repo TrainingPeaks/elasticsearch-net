@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentAssertions;
 
-namespace Nest.Tests.Integration.Core.Analyze
+namespace Nest17.Tests.Integration.Core.Analyze
 {
 	[TestFixture]
 	public class AnalyzeTests : IntegrationTests

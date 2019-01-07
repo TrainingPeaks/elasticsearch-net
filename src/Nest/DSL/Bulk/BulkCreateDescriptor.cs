@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Globalization;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IBulkCreateOperation<T> : IBulkOperation
 		where T : class

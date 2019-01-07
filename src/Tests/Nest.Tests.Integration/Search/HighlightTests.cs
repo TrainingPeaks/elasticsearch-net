@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
-using Elasticsearch.Net;
+using Nest17.Tests.MockData.Domain;
+using ES.Net;
 
-namespace Nest.Tests.Integration.Search
+namespace Nest17.Tests.Integration.Search
 {
 	[TestFixture]
 	public class HighlightIntegrationTests : IntegrationTests

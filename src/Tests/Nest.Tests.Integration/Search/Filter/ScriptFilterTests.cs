@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using NUnit.Framework;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Search.Filter
+namespace Nest17.Tests.Integration.Search.Filter
 {
 	/// <summary>
 	/// Integrated tests of ScriptFilter with elasticsearch.

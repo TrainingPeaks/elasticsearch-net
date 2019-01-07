@@ -1,8 +1,8 @@
 ﻿using System;
-using Elasticsearch.Net;
+using ES.Net;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.Script
+namespace Nest17.Tests.Unit.Core.Script
 {
     [TestFixture]
     public class DeleteScriptRequestTests : BaseJsonTests
@@ -41,7 +41,7 @@ namespace Nest.Tests.Unit.Core.Script
             var result = this._client.DeleteScript(s => s.Lang("lang").Id("id"));
             Assert.NotNull(result, "DeleteScript result should not be null");
             var status = result.ConnectionStatus;
-            StringAssert.Contains("USING NEST IN MEMORY CONNECTION", result.ConnectionStatus.ResponseRaw.Utf8String());
+            StringAssert.Contains("using Nest17 IN MEMORY CONNECTION", result.ConnectionStatus.ResponseRaw.Utf8String());
             StringAssert.EndsWith("/_scripts/lang/id", status.RequestUrl);
             StringAssert.AreEqualIgnoringCase("DELETE", status.RequestMethod);
         }
@@ -52,7 +52,7 @@ namespace Nest.Tests.Unit.Core.Script
             var result = this._client.DeleteScript(s => s.Lang(ScriptLang.JS).Id("id"));
             Assert.NotNull(result, "DeleteScript result should not be null");
             var status = result.ConnectionStatus;
-            StringAssert.Contains("USING NEST IN MEMORY CONNECTION", result.ConnectionStatus.ResponseRaw.Utf8String());
+            StringAssert.Contains("using Nest17 IN MEMORY CONNECTION", result.ConnectionStatus.ResponseRaw.Utf8String());
             StringAssert.EndsWith("/_scripts/js/id", status.RequestUrl);
             StringAssert.AreEqualIgnoringCase("DELETE", status.RequestMethod);
         }

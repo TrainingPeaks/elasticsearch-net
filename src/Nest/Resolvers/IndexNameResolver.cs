@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Resolvers
+namespace Nest17.Resolvers
 {
 	public class IndexNameResolver
 	{

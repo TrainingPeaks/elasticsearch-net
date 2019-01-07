@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq.Expressions;
-using Elasticsearch.Net;
-using Nest.Resolvers.Converters;
+using ES.Net;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	[JsonConverter(typeof(ReadAsTypeConverter<TermSuggester>))]

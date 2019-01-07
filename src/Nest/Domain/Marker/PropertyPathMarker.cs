@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Represents a typed container for object paths "field.nested.property";

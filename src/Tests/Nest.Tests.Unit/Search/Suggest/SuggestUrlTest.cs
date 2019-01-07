@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Net;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.ConnectionPool;
+using ES.Net.Connection;
+using ES.Net.ConnectionPool;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Search.Suggest
+namespace Nest17.Tests.Unit.Search.Suggest
 {
 	[TestFixture]
 	public class SuggestUrlTest

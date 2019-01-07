@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace Nest
+namespace Nest17
 {
 	public abstract class BucketAggregationBase : AggregationsHelper , IBucketAggregation
 	{

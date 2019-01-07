@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System;
 
-namespace Nest
+namespace Nest17
 {
 
 	/// <summary>

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Nest.Resolvers.Converters.Aggregations;
+using Nest17.Resolvers.Converters.Aggregations;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json;
@@ -8,9 +8,9 @@ using System.Linq;
 using System.Reflection;
 using System.Collections;
 using System.Globalization;
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 
-namespace Nest.Resolvers
+namespace Nest17.Resolvers
 {
 	public class ElasticContractResolver : DefaultContractResolver
 	{
@@ -20,7 +20,6 @@ namespace Nest.Resolvers
 		public IConnectionSettingsValues ConnectionSettings { get; private set; }
 
 		public ElasticContractResolver(IConnectionSettingsValues connectionSettings)
-			: base(true)
 		{
 			this.ConnectionSettings = connectionSettings;
 		}

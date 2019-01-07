@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Collections.Generic;
 
-namespace Nest.Tests.Unit.Search.Filter.Singles
+namespace Nest17.Tests.Unit.Search.Filter.Singles
 {
 	[TestFixture]
 	public class GeoShapeFilterJson

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Script1
+namespace ES.Net.Integration.Yaml.Script1
 {
 	public partial class Script1YamlTests
 	{	

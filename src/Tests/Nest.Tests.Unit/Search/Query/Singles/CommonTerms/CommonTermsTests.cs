@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Search.Query.Singles.CommonTerms
+namespace Nest17.Tests.Unit.Search.Query.Singles.CommonTerms
 {
 	[TestFixture]
 	public class CommonTermsTests : BaseJsonTests

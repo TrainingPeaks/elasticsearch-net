@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesOptimize1
+namespace ES.Net.Integration.Yaml.IndicesOptimize1
 {
 	public partial class IndicesOptimize1YamlTests
 	{	

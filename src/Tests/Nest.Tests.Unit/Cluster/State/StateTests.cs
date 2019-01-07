@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Reflection;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Cluster.State
+namespace Nest17.Tests.Unit.Cluster.State
 {
 	[TestFixture]
 	public class StateTests : BaseJsonTests

@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Provides convenience extension to open an index by string or type.

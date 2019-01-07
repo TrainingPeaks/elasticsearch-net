@@ -1,7 +1,7 @@
 ﻿using System;
-using Nest.Resolvers.Writers;
+using Nest17.Resolvers.Writers;
 
-namespace Nest.Tests.Unit.Core.AttributeBasedMap
+namespace Nest17.Tests.Unit.Core.AttributeBasedMap
 {
 	public abstract class BaseAttributeMappingTests : BaseJsonTests
 	{

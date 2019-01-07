@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Elasticsearch.Net.Connection.Thrift;
-using Elasticsearch.Net.Connection.Thrift.Protocol;
-using Nest;
+using ES.Net.Connection.Thrift;
+using ES.Net.Connection.Thrift.Protocol;
+using Nest17;
 
 namespace Profiling.Indexing
 {

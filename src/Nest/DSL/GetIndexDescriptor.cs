@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Elasticsearch.Net;
-using Nest.DSL.Query;
+using ES.Net;
+using Nest17.DSL.Query;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IGetIndexRequest : IIndicesOptionalExplicitAllPath<GetIndexRequestParameters>

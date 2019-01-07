@@ -2,7 +2,7 @@
 using System.Linq;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
     [JsonObject]
     public class HitsMetaData<T> where T : class

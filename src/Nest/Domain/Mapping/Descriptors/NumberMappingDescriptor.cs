@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	public class NumberMappingDescriptor<T> where T : class
 	{

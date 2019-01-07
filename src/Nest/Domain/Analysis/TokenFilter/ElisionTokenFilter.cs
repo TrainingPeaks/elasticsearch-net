@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// A token filter which removes elisions. For example, “l’avion” (the plane) will tokenized as “avion” (plane).

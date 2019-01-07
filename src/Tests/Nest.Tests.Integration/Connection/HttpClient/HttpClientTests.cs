@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Connection.HttpClient
+namespace Nest17.Tests.Integration.Connection.HttpClient
 {
     [TestFixture]
     public class HttpClientTests : IntegrationTests

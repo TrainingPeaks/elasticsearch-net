@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Bulk1
+namespace ES.Net.Integration.Yaml.Bulk1
 {
 	public partial class Bulk1YamlTests
 	{	

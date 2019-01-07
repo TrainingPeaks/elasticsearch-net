@@ -21,7 +21,7 @@
  * details.
  */
 
-namespace Elasticsearch.Net.Connection.Thrift.Transport
+namespace ES.Net.Connection.Thrift.Transport
 {
 	public abstract class TTransport
 	{

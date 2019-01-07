@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Core.Map.GenericTypes
+namespace Nest17.Tests.Unit.Core.Map.GenericTypes
 {
 	[TestFixture]
 	public class GenericTypeMappingTests : BaseJsonTests

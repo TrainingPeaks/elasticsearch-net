@@ -3,7 +3,7 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Tests.Unit.QueryParsers.Filter
+namespace Nest17.Tests.Unit.QueryParsers.Filter
 {
 	[TestFixture]
 	public class GeoShapeFilterTests : ParseFilterTestsBase 

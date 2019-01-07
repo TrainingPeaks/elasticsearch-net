@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
-using Elasticsearch.Net.Connection.Thrift;
-using Elasticsearch.Net;
+using ES.Net.Connection.Thrift;
+using ES.Net;
 
-namespace Nest.Tests.Integration
+namespace Nest17.Tests.Integration
 {
 	public static class ElasticsearchConfiguration
 	{

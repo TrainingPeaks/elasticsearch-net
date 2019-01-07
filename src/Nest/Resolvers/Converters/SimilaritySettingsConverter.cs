@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Resolvers.Converters
+namespace Nest17.Resolvers.Converters
 {
 	public class SimilaritySettingsConverter : JsonConverter
 	{

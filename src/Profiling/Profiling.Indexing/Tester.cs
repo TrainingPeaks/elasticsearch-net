@@ -4,8 +4,8 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Elasticsearch.Net.ConnectionPool;
-using Nest;
+using ES.Net.ConnectionPool;
+using Nest17;
 
 namespace Profiling.Indexing
 {

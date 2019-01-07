@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
-using Elasticsearch.Net.Serialization;
+using ES.Net.Serialization;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	internal static class NameValueCollectionExtensions
 	{

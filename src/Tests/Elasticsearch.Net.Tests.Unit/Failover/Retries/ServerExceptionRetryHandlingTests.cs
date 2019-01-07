@@ -2,14 +2,14 @@ using System;
 using System.IO;
 using System.Text;
 using Autofac.Extras.FakeItEasy;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Connection;
+using ES.Net.ConnectionPool;
+using ES.Net.Tests.Unit.Stubs;
 using FakeItEasy;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Elasticsearch.Net.Tests.Unit.Failover.Retries
+namespace ES.Net.Tests.Unit.Failover.Retries
 {
 	[TestFixture]
 	public class ServerExceptionRetryHandlingTests

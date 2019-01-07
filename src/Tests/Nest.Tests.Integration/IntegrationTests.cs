@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Elasticsearch.Net;
-using Nest.Tests.MockData.Domain;
+using ES.Net;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration
+namespace Nest17.Tests.Integration
 {
 	public class IntegrationTests
 	{

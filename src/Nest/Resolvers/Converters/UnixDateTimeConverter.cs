@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Nest.Resolvers.Converters
+namespace Nest17.Resolvers.Converters
 {
 	public class UnixDateTimeConverter : DateTimeConverterBase
 	{

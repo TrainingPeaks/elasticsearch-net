@@ -1,8 +1,8 @@
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net;
+using ES.Net.Connection.Configuration;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public abstract class BasePathRequest<TParameters> : BaseRequest<TParameters>
 		where TParameters : IRequestParameters, new()

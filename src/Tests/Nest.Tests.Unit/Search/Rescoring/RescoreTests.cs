@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Rescoring
+namespace Nest17.Tests.Unit.Search.Rescoring
 {
 	[TestFixture]
 	public class RescoreTests : BaseJsonTests

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Nest.DSL.Visitor;
+using Nest17.DSL.Visitor;
 
-namespace Nest.Tests.Unit.QueryParsers.Visitor
+namespace Nest17.Tests.Unit.QueryParsers.Visitor
 {
 
 	/// <summary>

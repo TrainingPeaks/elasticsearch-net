@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Explain1
+namespace ES.Net.Integration.Yaml.Explain1
 {
 	public partial class Explain1YamlTests
 	{	

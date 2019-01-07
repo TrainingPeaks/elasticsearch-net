@@ -1,4 +1,4 @@
-﻿namespace Nest.Tests.Integration.Indices.Analysis.Analyzers
+﻿namespace Nest17.Tests.Integration.Indices.Analysis.Analyzers
 {
 	public class AnalyzerTest
 	{

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using Nest.Resolvers.Writers;
+using Nest17.Resolvers.Writers;
 
-namespace Nest
+namespace Nest17
 {
     public class NestedObjectMappingDescriptor<TParent, TChild> 
 		where TParent : class

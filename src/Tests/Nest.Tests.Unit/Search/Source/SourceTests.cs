@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Reflection;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Source
+namespace Nest17.Tests.Unit.Search.Source
 {
 	[TestFixture]
 	public class SourceTests : BaseJsonTests

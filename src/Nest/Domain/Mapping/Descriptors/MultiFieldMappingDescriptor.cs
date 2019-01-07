@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
 	public class MultiFieldMappingDescriptor<T> where T : class
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Nest.Resolvers.Converters.Queries
+namespace Nest17.Resolvers.Converters.Queries
 {
 	public class TermsQueryJsonConverter : JsonConverter
 	{

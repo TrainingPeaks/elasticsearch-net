@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Elasticsearch.Net;
+using ES.Net;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration
+namespace Nest17.Tests.Integration
 {
 	[TestFixture]
 	public class ConnectionTests : IntegrationTests

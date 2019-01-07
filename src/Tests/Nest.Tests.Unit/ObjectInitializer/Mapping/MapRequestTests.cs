@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.ObjectInitializer.Mapping
+namespace Nest17.Tests.Unit.ObjectInitializer.Mapping
 {
 	[TestFixture]
 	public class MapRequestTests : BaseJsonTests

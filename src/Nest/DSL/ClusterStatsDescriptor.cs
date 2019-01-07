@@ -1,10 +1,10 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	internal static class ClusterStatsPathInfo
 	{

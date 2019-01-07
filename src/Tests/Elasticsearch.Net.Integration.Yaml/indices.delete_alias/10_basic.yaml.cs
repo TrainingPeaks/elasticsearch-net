@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.IndicesDeleteAlias1
+namespace ES.Net.Integration.Yaml.IndicesDeleteAlias1
 {
 	public partial class IndicesDeleteAlias1YamlTests
 	{	

@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 
-namespace Nest.Tests.Integration.Search
+namespace Nest17.Tests.Integration.Search
 {
 	[TestFixture]
 	public class DoRequestTests : IntegrationTests

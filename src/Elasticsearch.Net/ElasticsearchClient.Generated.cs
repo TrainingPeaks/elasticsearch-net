@@ -4,11 +4,11 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net.Connection.Configuration;
 
 ///Generated File Please Do Not Edit Manually
 	
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	///<summary>
 	///Raw operations with elasticsearch

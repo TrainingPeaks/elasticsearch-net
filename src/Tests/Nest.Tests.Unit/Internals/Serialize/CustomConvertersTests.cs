@@ -6,10 +6,10 @@ using System.Runtime.Serialization;
 using FluentAssertions;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
-using Elasticsearch.Net;
+using Nest17.Tests.MockData.Domain;
+using ES.Net;
 
-namespace Nest.Tests.Unit.Internals.Serialize
+namespace Nest17.Tests.Unit.Internals.Serialize
 {
 	[TestFixture]
 	public class CustomConvertersTests : BaseJsonTests

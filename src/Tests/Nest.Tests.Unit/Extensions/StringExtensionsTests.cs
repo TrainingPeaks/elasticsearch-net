@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Unit.Extensions
+namespace Nest17.Tests.Unit.Extensions
 {
 	[TestFixture]
 	public class StringExtensionsTests

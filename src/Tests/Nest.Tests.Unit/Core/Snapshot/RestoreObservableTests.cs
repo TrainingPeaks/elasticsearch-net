@@ -8,7 +8,7 @@ using FluentAssertions;
 using Moq;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.Snapshot
+namespace Nest17.Tests.Unit.Core.Snapshot
 {
 	[TestFixture]
 	public class RestoreObservableTests : BaseJsonTests

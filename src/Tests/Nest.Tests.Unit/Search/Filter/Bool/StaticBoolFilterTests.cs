@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Filter.Bool
+namespace Nest17.Tests.Unit.Search.Filter.Bool
 {
 	[TestFixture]
 	public class StaticBoolFilterTests : BaseJsonTests

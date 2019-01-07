@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Map.BoostField
+namespace Nest17.Tests.Unit.Core.Map.BoostField
 {
 	[TestFixture]
 	public class BoostFieldTests : BaseJsonTests

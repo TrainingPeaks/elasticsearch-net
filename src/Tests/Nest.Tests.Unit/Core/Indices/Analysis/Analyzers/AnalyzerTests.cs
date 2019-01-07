@@ -1,11 +1,11 @@
-﻿using Nest.Tests.Unit.Core.Indices.Analysis.Tokenizers;
+﻿using Nest17.Tests.Unit.Core.Indices.Analysis.Tokenizers;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Indices.Analysis.Analyzers
+namespace Nest17.Tests.Unit.Core.Indices.Analysis.Analyzers
 {
 	[TestFixture]
 	public class AnalyzerTests : BaseAnalysisTests

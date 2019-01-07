@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Index7
+namespace ES.Net.Integration.Yaml.Index7
 {
 	public partial class Index7YamlTests
 	{	

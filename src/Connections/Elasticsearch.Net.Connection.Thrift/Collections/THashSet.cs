@@ -20,7 +20,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Elasticsearch.Net.Connection.Thrift.Collections
+namespace ES.Net.Connection.Thrift.Collections
 {
 	public class THashSet<T> : ICollection<T>
 	{

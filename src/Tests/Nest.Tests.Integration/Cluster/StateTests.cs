@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Elasticsearch.Net;
+using ES.Net;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Cluster
+namespace Nest17.Tests.Integration.Cluster
 {
 	[TestFixture]
 	public class StateTests : IntegrationTests

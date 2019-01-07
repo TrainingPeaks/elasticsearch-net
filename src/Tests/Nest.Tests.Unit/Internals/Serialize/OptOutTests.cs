@@ -3,7 +3,7 @@ using System.Reflection;
 using NUnit.Framework;
 using Newtonsoft.Json;
 
-namespace Nest.Tests.Unit.Internals.Serialize
+namespace Nest17.Tests.Unit.Internals.Serialize
 {
 	[TestFixture]
 	public class OptOutTests : BaseJsonTests

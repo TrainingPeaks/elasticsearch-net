@@ -33,6 +33,8 @@ obj/
 _ReSharper*/
 _NCrunch*/
 [Tt]est[Rr]esult*
+packages/
+.vs/
 
 build/*
 !build/tools

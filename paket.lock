@@ -14,7 +14,7 @@ NUGET
     FubuCsProjFile (1.1.0.83)
       FubuCore (>= 1.0)
     Moq (4.2.1312.1622)
-    Newtonsoft.Json (7.0.1)
+    Newtonsoft.Json (10.0.1)
     NuGet.CommandLine (2.8.3)
     NUnit (2.6.4)
     RazorMachine (2.6.1)

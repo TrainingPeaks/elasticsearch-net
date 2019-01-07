@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Integration.Core.Map.TimestampField
+namespace Nest17.Tests.Integration.Core.Map.TimestampField
 {
 	[TestFixture]
 	public class TimestampFieldTests : BaseMappingTests

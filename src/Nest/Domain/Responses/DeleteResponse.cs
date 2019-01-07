@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	// TODO: For backwards compatibility, this class acts as the response object
 	// for both delete and delete by query requests, even though their actual responses

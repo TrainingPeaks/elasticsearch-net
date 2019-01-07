@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Nest.Resolvers.Converters.Aggregations;
+using Nest17.Resolvers.Converters.Aggregations;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	[JsonConverter(typeof(FiltersAggregatorConverter))]

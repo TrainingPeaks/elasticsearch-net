@@ -1,13 +1,13 @@
 using System;
 using System.IO;
 using System.Text;
-using Elasticsearch.Net.Tests.Unit.Memory.Helpers;
-using Elasticsearch.Net.Tests.Unit.Responses.Helpers;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Tests.Unit.Memory.Helpers;
+using ES.Net.Tests.Unit.Responses.Helpers;
+using ES.Net.Tests.Unit.Stubs;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Elasticsearch.Net.Tests.Unit.Memory
+namespace ES.Net.Tests.Unit.Memory
 {
 	[TestFixture]
 	public class ResponseCodePathsMemoryTests : ResponseCodePathsMemoryTestsBase

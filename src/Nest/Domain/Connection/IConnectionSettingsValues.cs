@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Reflection;
-using Elasticsearch.Net.Connection;
+using ES.Net.Connection;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IConnectionSettingsValues : IConnectionConfigurationValues
 	{

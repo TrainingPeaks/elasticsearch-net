@@ -5,11 +5,11 @@ using System.Globalization;
 using System.Reflection;
 using System.Threading;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
-using Elasticsearch.Net;
+using Nest17.Tests.MockData.Domain;
+using ES.Net;
 using FluentAssertions;
 
-namespace Nest.Tests.Unit.Internals.Serialize
+namespace Nest17.Tests.Unit.Internals.Serialize
 {
 	[TestFixture]
 	public class SerializeTests : BaseJsonTests

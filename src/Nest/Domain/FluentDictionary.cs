@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	public class FluentDictionary<K, V> : Dictionary<K, V>
 	{

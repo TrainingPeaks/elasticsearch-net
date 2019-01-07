@@ -1,9 +1,9 @@
 ﻿using System;
-using Elasticsearch.Net;
-using Nest.Tests.MockData.Domain;
+using ES.Net;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Core.Scroll
+namespace Nest17.Tests.Unit.Core.Scroll
 {
 	[TestFixture]
 	public class ScrollRequestTests : BaseJsonTests

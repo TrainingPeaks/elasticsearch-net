@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// A tokenizer of type lowercase that performs the function of Letter Tokenizer and Lower Case Token Filter together. 

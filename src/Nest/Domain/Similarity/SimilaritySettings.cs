@@ -1,10 +1,10 @@
 ﻿
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(SimilaritySettingsConverter))]
 	public class SimilaritySettings

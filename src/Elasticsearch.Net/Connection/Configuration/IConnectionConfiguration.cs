@@ -2,7 +2,7 @@
 using System.Collections.Specialized;
 using System.IO;
 
-namespace Elasticsearch.Net.Connection
+namespace ES.Net.Connection
 {
 	public interface IConnectionConfiguration : 
 		IConnectionConfiguration<IConnectionConfiguration>

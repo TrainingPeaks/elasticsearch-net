@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.CatFielddata1
+namespace ES.Net.Integration.Yaml.CatFielddata1
 {
 	public partial class CatFielddata1YamlTests
 	{	

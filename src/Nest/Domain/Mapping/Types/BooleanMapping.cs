@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using System;
 using Newtonsoft.Json.Converters;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization.OptIn)]
 	public class BooleanMapping : MultiFieldMapping, IElasticType, IElasticCoreType

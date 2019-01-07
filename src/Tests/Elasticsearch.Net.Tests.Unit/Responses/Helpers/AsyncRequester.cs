@@ -4,12 +4,12 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac.Extras.FakeItEasy;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Connection;
+using ES.Net.Tests.Unit.Stubs;
 using FakeItEasy;
 using FakeItEasy.Configuration;
 
-namespace Elasticsearch.Net.Tests.Unit.Responses.Helpers
+namespace ES.Net.Tests.Unit.Responses.Helpers
 {
 	public class AsyncRequester<T> : IDisposable where T : class
 	{

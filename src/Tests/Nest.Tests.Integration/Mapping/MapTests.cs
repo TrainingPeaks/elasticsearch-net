@@ -1,9 +1,9 @@
 ﻿using System;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Mapping
+namespace Nest17.Tests.Integration.Mapping
 {
 	[TestFixture]
 	public class MapTests : IntegrationTests

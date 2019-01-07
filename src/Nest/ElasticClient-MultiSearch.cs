@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
-using Nest.Resolvers.Converters;
+using ES.Net;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	using MultiSearchCreator = Func<IElasticsearchResponse, Stream, MultiSearchResponse>;
 

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using FakeItEasy;
 using FluentAssertions;
-using Nest.DSL.Visitor;
+using Nest17.DSL.Visitor;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.QueryParsers.Visitor
+namespace Nest17.Tests.Unit.QueryParsers.Visitor
 {
 	[TestFixture]
 	public class VisitorTests

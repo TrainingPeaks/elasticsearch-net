@@ -3,12 +3,12 @@ using System.Diagnostics;
 using System.Runtime.Remoting.Channels;
 using System.Threading;
 using AppDomainToolkit;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
+using ES.Net;
+using ES.Net.Connection;
 using FluentAssertions;
-using Nest;
-using Nest.Tests.Integration;
-using Nest.Tests.MockData.Domain;
+using Nest17;
+using Nest17.Tests.Integration;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
 namespace StartupTests

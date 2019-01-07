@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Create1
+namespace ES.Net.Integration.Yaml.Create1
 {
 	public partial class Create1YamlTests
 	{	

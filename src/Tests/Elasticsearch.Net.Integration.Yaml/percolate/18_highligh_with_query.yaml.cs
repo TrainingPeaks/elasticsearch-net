@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Percolate4
+namespace ES.Net.Integration.Yaml.Percolate4
 {
 	public partial class Percolate4YamlTests
 	{	

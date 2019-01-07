@@ -3,7 +3,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Nest.Resolvers.Converters
+namespace Nest17.Resolvers.Converters
 {
 	public class ShardsSegmentConverter : JsonConverter
 	{

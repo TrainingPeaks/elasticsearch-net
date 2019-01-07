@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using FluentAssertions;
 using System.Reflection;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Text;
 using System.IO;
 
-namespace Nest.Tests.Unit.Search.Sorting
+namespace Nest17.Tests.Unit.Search.Sorting
 {
 	[TestFixture]
 	public class SortTests : BaseJsonTests

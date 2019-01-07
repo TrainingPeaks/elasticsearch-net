@@ -4,7 +4,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Nest.Resolvers.Converters.Filters
+namespace Nest17.Resolvers.Converters.Filters
 {
 	public class PrefixFilterConverter : JsonConverter
 	{

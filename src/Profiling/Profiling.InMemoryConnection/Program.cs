@@ -1,5 +1,5 @@
 ﻿using System;
-using Nest;
+using Nest17;
 
 namespace Profiling.InMemoryConnection
 {

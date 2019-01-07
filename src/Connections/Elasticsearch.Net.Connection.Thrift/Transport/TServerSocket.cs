@@ -25,7 +25,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 
-namespace Elasticsearch.Net.Connection.Thrift.Transport
+namespace ES.Net.Connection.Thrift.Transport
 {
 	public class TServerSocket : TServerTransport
 	{

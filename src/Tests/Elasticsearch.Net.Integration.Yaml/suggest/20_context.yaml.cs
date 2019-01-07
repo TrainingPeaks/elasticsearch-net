@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.Suggest2
+namespace ES.Net.Integration.Yaml.Suggest2
 {
 	public partial class Suggest2YamlTests
 	{	

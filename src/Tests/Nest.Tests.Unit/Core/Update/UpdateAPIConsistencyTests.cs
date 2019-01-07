@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework.Constraints;
 
-namespace Nest.Tests.Unit.Core.Update
+namespace Nest17.Tests.Unit.Core.Update
 {
 	[TestFixture]
 	public class UpdateAPIConsistencyTests : BaseJsonTests

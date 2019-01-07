@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Implements Get() extensions that make it easier to get a document given an id

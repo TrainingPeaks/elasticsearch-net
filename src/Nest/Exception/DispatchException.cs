@@ -1,4 +1,4 @@
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Occurs when an IElasticClient call does not have 

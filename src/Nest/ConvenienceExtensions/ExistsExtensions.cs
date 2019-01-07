@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// Provides extension methods to provide a cleaner scoll API given a scollTime and scrollId

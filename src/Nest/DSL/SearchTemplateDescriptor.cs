@@ -1,6 +1,6 @@
-﻿using Elasticsearch.Net;
-using Nest.DSL.Descriptors;
-using Nest.Resolvers.Converters;
+﻿using ES.Net;
+using Nest17.DSL.Descriptors;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Nest
+namespace Nest17
 {
 	internal static class SearchTemplatePathInfo
 	{

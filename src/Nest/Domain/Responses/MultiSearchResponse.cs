@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject]
 	public class MultiSearchResponse : BaseResponse, IMultiSearchResponse

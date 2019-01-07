@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Elasticsearch.Net.Serialization;
+using ES.Net.Serialization;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 
 	//TODO It would be very nice if we can get rid of this interface

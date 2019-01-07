@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public class CompositeJsonConverter<TRead, TWrite> : JsonConverter
 		where TRead : JsonConverter, new()

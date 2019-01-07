@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// A tokenizer of type standard providing grammar based tokenizer that is a good tokenizer for most European language documents. 

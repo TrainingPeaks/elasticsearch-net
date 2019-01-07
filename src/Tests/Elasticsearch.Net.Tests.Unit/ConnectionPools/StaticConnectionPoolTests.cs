@@ -4,18 +4,18 @@ using System.IO;
 using System.Linq;
 using Autofac;
 using Autofac.Extras.FakeItEasy;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Connection.Configuration;
-using Elasticsearch.Net.ConnectionPool;
-using Elasticsearch.Net.Exceptions;
-using Elasticsearch.Net.Providers;
-using Elasticsearch.Net.Serialization;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Connection;
+using ES.Net.Connection.Configuration;
+using ES.Net.ConnectionPool;
+using ES.Net.Exceptions;
+using ES.Net.Providers;
+using ES.Net.Serialization;
+using ES.Net.Tests.Unit.Stubs;
 using FakeItEasy;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Elasticsearch.Net.Tests.Unit.ConnectionPools
+namespace ES.Net.Tests.Unit.ConnectionPools
 {
 	[TestFixture]
 	public class StaticConnectionPoolTests

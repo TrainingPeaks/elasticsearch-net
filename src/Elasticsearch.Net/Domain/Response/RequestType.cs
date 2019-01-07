@@ -1,4 +1,4 @@
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public enum RequestType
 	{

@@ -1,4 +1,4 @@
-namespace Elasticsearch.Net.Exceptions
+namespace ES.Net.Exceptions
 {
 	internal class OneToOneServerException
 	{

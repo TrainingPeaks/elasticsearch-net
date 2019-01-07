@@ -1,9 +1,9 @@
 using System;
 using System.IO;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Connection.Configuration;
+using ES.Net.Connection;
+using ES.Net.Connection.Configuration;
 
-namespace Elasticsearch.Net.Tests.Unit.Failover.Concurrent
+namespace ES.Net.Tests.Unit.Failover.Concurrent
 {
 	/// <summary>
 	/// This simulates a super flakey elasticsearch cluster.

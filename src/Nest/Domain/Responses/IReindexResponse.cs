@@ -1,4 +1,4 @@
-﻿namespace Nest
+﻿namespace Nest17
 {
 	/// <summary>
 	/// POCO representing the reindex response for a each step

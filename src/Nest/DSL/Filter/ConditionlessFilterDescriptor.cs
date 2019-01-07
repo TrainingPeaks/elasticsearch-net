@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	public class ConditionlessFilterDescriptor<T> where T : class
 	{

@@ -1,10 +1,10 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 using System.Linq;
-using Elasticsearch.Net;
+using ES.Net;
 using FluentAssertions;
 
-namespace Nest.Tests.Integration.Core
+namespace Nest17.Tests.Integration.Core
 {
 	[TestFixture]
 	public class ValidateIntegrationTests : IntegrationTests

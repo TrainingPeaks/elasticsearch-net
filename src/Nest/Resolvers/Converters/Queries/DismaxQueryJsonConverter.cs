@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest.Resolvers.Converters.Queries
+namespace Nest17.Resolvers.Converters.Queries
 {
 	public class DismaxQueryJsonConverter : ReadAsTypeConverter<DisMaxQueryDescriptor<object>>
 	{

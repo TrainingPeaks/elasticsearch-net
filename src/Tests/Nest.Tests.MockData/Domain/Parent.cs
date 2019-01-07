@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Nest.Tests.MockData.Domain
+namespace Nest17.Tests.MockData.Domain
 {
 	public class Parent
 	{

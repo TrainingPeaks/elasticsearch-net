@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonConverter(typeof(StringEnumConverter))]
 	public enum RoutingAllocationEnableOption

@@ -1,8 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Filter.ConditionlessBool
+namespace Nest17.Tests.Unit.Search.Filter.ConditionlessBool
 {
 	[TestFixture]
 	public class ConditionlessBoolTests : BaseJsonTests

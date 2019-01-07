@@ -1,9 +1,9 @@
 using System;
-using Nest.Resolvers.Converters;
-using Nest.Resolvers.Converters.Aggregations;
+using Nest17.Resolvers.Converters;
+using Nest17.Resolvers.Converters.Aggregations;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	[JsonConverter(typeof(FilterAggregatorConverter))]

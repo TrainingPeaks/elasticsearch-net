@@ -3,7 +3,7 @@ using NUnit.Framework;
 using System;
 using System.Reflection;
 
-namespace Nest.Tests.Unit.Core.Indices.Similarity
+namespace Nest17.Tests.Unit.Core.Indices.Similarity
 {
 	[TestFixture]
 	public class SimilarityTests : BaseJsonTests

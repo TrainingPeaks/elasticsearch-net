@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.Search.Filter.InsideBoolCalls
+namespace Nest17.Tests.Unit.Search.Filter.InsideBoolCalls
 {
 	[TestFixture]
   public class InsideBoolCallsTests : BaseJsonTests

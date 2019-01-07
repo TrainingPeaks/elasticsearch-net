@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography.X509Certificates;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IPathInfo<TParameters> 
 		where TParameters : IRequestParameters, new()

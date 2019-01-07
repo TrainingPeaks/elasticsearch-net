@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Nest.Tests.MockData.Domain
+namespace Nest17.Tests.MockData.Domain
 {
 	[ElasticType(Name = "elasticsearchprojects")]
 	public class ElasticsearchProject

@@ -5,7 +5,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Nest.Resolvers.Converters.Filters
+namespace Nest17.Resolvers.Converters.Filters
 {
 	[Obsolete("Scheduled to be removed in 2.0, please use RangeFilterJsonConverter instead")]
 	public class RangeFilterJsonReader : RangeFilterJsonConverter

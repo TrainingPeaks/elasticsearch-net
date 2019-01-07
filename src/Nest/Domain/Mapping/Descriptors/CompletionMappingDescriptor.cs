@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Nest
+namespace Nest17
 {
     public class CompletionMappingDescriptor<T>
 		where T : class

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Elasticsearch.Net;
-using Nest.Resolvers.Converters;
+using ES.Net;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	[JsonObject(MemberSerialization = MemberSerialization.OptIn)]
 	public interface IPercolateOperation

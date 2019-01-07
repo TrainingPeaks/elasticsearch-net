@@ -1,7 +1,7 @@
 ﻿using System;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest
+namespace Nest17
 {
 	public class ReindexException: Exception
 	{

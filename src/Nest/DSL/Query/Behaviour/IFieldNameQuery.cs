@@ -1,4 +1,4 @@
-﻿namespace Nest.DSL.Query.Behaviour
+﻿namespace Nest17.DSL.Query.Behaviour
 {
 	public interface IFieldNameQuery : IQuery
 	{

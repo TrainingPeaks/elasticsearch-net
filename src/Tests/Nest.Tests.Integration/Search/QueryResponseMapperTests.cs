@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Elasticsearch.Net;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using ES.Net;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Search
+namespace Nest17.Tests.Integration.Search
 {
 	/// <summary>
 	///  Tests that test whether the query response can be successfully mapped or not

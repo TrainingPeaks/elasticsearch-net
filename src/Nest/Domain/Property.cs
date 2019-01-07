@@ -1,7 +1,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace Nest.Resolvers
+namespace Nest17.Resolvers
 {
 	public static class Property
 	{

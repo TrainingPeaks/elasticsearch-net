@@ -2,7 +2,7 @@
 using System.Collections.Specialized;
 using System.Globalization;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	internal static class StringExtensions
 	{

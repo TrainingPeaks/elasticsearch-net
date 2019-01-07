@@ -3,10 +3,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Elasticsearch.Net.Serialization;
+using ES.Net.Serialization;
 using Newtonsoft.Json;
 
-namespace Elasticsearch.Net.JsonNet
+namespace ES.Net.JsonNet
 {
 	public class ElasticsearchJsonNetSerializer: IElasticsearchSerializer
 	{

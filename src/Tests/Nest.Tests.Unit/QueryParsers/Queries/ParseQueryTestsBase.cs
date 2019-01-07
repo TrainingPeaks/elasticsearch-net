@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using FluentAssertions;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData.Domain;
 
-namespace Nest.Tests.Unit.QueryParsers.Queries
+namespace Nest17.Tests.Unit.QueryParsers.Queries
 {
 	public abstract class ParseQueryTestsBase : BaseParserTests
 	{

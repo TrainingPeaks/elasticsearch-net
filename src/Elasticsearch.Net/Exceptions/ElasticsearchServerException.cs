@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 	public class ElasticsearchServerException : Exception
 	{

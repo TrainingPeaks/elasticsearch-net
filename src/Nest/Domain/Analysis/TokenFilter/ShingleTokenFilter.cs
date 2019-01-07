@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// A token filter of type shingle that constructs shingles (token n-grams) from a token stream. 

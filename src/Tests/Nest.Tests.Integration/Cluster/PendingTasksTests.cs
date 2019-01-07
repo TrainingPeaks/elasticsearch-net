@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Integration.Cluster
+namespace Nest17.Tests.Integration.Cluster
 {
 	[TestFixture]
 	public class PendingTasksTests : IntegrationTests

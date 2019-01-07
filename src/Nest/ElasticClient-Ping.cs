@@ -1,4 +1,4 @@
-﻿using Elasticsearch.Net;
+﻿using ES.Net;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest
+namespace Nest17
 {
 	using PingConverter = Func<IElasticsearchResponse, Stream, PingResponse>;
 

@@ -1,4 +1,4 @@
-﻿using Nest.Tests.MockData.Domain;
+﻿using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Nest.Tests.Unit.Search.Query.Singles
+namespace Nest17.Tests.Unit.Search.Query.Singles
 {
 	[TestFixture]
 	public class TemplateQueryJson : BaseJsonTests

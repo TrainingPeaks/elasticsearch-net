@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using Newtonsoft.Json.Linq;
 
-namespace Nest
+namespace Nest17
 {
 	internal static class Extensions
 	{

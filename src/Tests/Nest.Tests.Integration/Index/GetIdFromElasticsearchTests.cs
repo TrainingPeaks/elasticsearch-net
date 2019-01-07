@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
-using Elasticsearch.Net;
+using ES.Net;
 
-namespace Nest.Tests.Integration.Index
+namespace Nest17.Tests.Integration.Index
 {
 	[TestFixture]
 	public class GetIdFromElasticSearchTests : IntegrationTests

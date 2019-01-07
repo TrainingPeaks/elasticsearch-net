@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.CatAllocation1
+namespace ES.Net.Integration.Yaml.CatAllocation1
 {
 	public partial class CatAllocation1YamlTests
 	{	

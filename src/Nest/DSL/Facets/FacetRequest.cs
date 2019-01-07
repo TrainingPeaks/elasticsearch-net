@@ -1,7 +1,7 @@
-using Nest.Resolvers.Converters;
+using Nest17.Resolvers.Converters;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IFacetRequest
 	{

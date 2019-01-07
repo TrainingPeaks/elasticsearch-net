@@ -1,10 +1,10 @@
 ﻿using System;
-using Elasticsearch.Net;
-using Elasticsearch.Net.Connection;
+using ES.Net;
+using ES.Net.Connection;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace Nest.Tests.Unit.Settings
+namespace Nest17.Tests.Unit.Settings
 {
 	[TestFixture]
 	public class UsePrettyResponses : BaseJsonTests

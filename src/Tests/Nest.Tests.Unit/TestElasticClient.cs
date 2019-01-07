@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Nest.Tests.Unit
+namespace Nest17.Tests.Unit
 {
 	public static class TestElasticClient
 	{

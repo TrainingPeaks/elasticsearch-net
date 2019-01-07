@@ -5,13 +5,13 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac.Extras.FakeItEasy;
-using Elasticsearch.Net.Connection;
-using Elasticsearch.Net.Providers;
-using Elasticsearch.Net.Tests.Unit.Stubs;
+using ES.Net.Connection;
+using ES.Net.Providers;
+using ES.Net.Tests.Unit.Stubs;
 using FakeItEasy;
 using FakeItEasy.Configuration;
 
-namespace Elasticsearch.Net.Tests.Unit.Memory.Helpers
+namespace ES.Net.Tests.Unit.Memory.Helpers
 {
 	public class AsyncMemorySetup<T> : IDisposable, IMemorySetup<T> where T : class
 	{

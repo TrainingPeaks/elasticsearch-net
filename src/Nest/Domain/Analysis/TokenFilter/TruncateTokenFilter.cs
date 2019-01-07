@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Nest
+namespace Nest17
 {
 	/// <summary>
 	/// The truncate token filter can be used to truncate tokens into a specific length. This can come in handy with keyword (single token) 

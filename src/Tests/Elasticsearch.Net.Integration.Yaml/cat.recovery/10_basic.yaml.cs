@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 
-namespace Elasticsearch.Net.Integration.Yaml.CatRecovery1
+namespace ES.Net.Integration.Yaml.CatRecovery1
 {
 	public partial class CatRecovery1YamlTests
 	{	

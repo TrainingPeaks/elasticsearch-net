@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using Nest.Tests.MockData;
-using Nest.Tests.MockData.Domain;
+using Nest17.Tests.MockData;
+using Nest17.Tests.MockData.Domain;
 using NUnit.Framework;
 
-namespace Nest.Tests.Integration.Core.Exists
+namespace Nest17.Tests.Integration.Core.Exists
 {
 	[TestFixture]
 	public class SearchExistsTests : IntegrationTests

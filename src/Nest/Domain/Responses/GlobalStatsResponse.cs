@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Nest
+namespace Nest17
 {
 	public interface IGlobalStatsResponse : IResponse
 	{

@@ -4,12 +4,12 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Elasticsearch.Net;
+using ES.Net;
 
 //Generated File Please Do Not Edit Manually
 
 
-namespace Nest
+namespace Nest17
 {
 	///<summary>
 	///Raw operations with elasticsearch

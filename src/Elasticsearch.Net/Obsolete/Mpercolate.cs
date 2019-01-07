@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Elasticsearch.Net
+namespace ES.Net
 {
 #pragma warning disable 0618
 	using MpercolateSelector = Func<MpercolateRequestParameters, MpercolateRequestParameters>;

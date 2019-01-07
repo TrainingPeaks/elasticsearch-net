@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System;
 
-namespace Nest
+namespace Nest17
 {
 	public class MutualInformationHeuristic
 	{
