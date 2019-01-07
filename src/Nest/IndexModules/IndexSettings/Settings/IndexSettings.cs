@@ -28,9 +28,7 @@ namespace Nest
 		/// </summary>
 		int? NumberOfShards { get; set; }
 
-		/// <summary>
-		/// Settings associated with queries.
-		/// </summary>
+		/// <summary> Settings associated with queries. </summary>
 		IQueriesSettings Queries { get; set; }
 
 		/// <summary>
@@ -44,6 +42,9 @@ namespace Nest
 		/// https://www.elastic.co/guide/en/elasticsearch/reference/6.0/index-modules-index-sorting.html
 		/// </summary>
 		ISortingSettings Sorting { get; set; }
+
+		/// <summary> Soft delete settings for the index </summary>
+		ISoftDeleteSettings SoftDeletes { get; set; }
 	}
 
 	/// <inheritdoc cref="IIndexSettings" />
@@ -70,6 +71,9 @@ namespace Nest
 
 		/// <inheritdoc />
 		public ISortingSettings Sorting { get; set; }
+
+		/// <inheritdoc />
+		public ISoftDeleteSettings SoftDeletes { get; set; }
 	}
 
 	/// <inheritdoc cref="IIndexSettings" />
@@ -100,5 +104,9 @@ namespace Nest
 		/// <inheritdoc cref="IIndexSettings.Sorting" />
 		public IndexSettingsDescriptor Sorting<T>(Func<SortingSettingsDescriptor<T>, ISortingSettings> selector) where T : class =>
 			Assign(a => a.Sorting = selector?.Invoke(new SortingSettingsDescriptor<T>()));
+
+		/// <inheritdoc cref="IIndexSettings.SoftDeletes" />
+		public IndexSettingsDescriptor SoftDeletes(Func<SoftDeleteSettingsDescriptor, ISoftDeleteSettings> selector) =>
+			Assign(a => a.SoftDeletes = selector?.Invoke(new SoftDeleteSettingsDescriptor()));
 	}
 }
