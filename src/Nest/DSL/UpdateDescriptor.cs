@@ -37,8 +37,8 @@ namespace Nest17
 		[JsonProperty(PropertyName = "doc")]
 		TPartialDocument Doc { get; set; }
 
-		[JsonProperty(PropertyName = "detect_noop")]
-		bool? DetectNoop { get; set; }
+//		[JsonProperty(PropertyName = "detect_noop")]
+//		bool? DetectNoop { get; set; }
 	}
 
 	internal static class UpdateRequestPathInfo
@@ -102,7 +102,7 @@ namespace Nest17
 		public TDocument Upsert { get; set; }
 		public bool? DocAsUpsert { get; set; }
 		public TPartialDocument Doc { get; set; }
-		bool? IUpdateRequest<TDocument, TPartialDocument>.DetectNoop { get; set; }
+		//bool? IUpdateRequest<TDocument, TPartialDocument>.DetectNoop { get; set; }
 	}
 
 	public partial class UpdateDescriptor<TDocument,TPartialDocument> 
@@ -130,7 +130,7 @@ namespace Nest17
 
 		TPartialDocument IUpdateRequest<TDocument, TPartialDocument>.Doc { get; set; }
 
-		bool? IUpdateRequest<TDocument, TPartialDocument>.DetectNoop { get; set; }
+		//bool? IUpdateRequest<TDocument, TPartialDocument>.DetectNoop { get; set; }
 
 		public UpdateDescriptor<TDocument, TPartialDocument> Script(string script)
 		{
